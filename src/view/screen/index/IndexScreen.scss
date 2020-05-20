@@ -1,0 +1,25 @@
+.index-screen{
+    >.animated-layer-1{
+        animation: circle-expand-animation-1 3s 0s linear infinite;
+    }
+    >.animated-layer-2{
+        animation: circle-expand-animation-2 3s 0s linear infinite;
+    }
+}
+
+@keyframes circle-expand-animation-1{
+    from {
+        clip-path: circle(0%);
+    }
+    42.5%, 100% {
+        clip-path: circle(100%);
+    }
+}
+@keyframes circle-expand-animation-2{
+    0%, 7.5% {
+        clip-path: circle(0%);
+    }
+    50%, 100% {
+        clip-path: circle(100%);
+    }
+}

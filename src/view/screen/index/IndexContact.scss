@@ -1,0 +1,10 @@
+.index-contact{
+    text-align: center;
+    font-size: 2em;
+    >*{
+        margin-right: 15px;
+    }
+    >*:last-child{
+        margin-right: 0;
+    }
+}

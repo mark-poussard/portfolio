@@ -2,5 +2,31 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: lightgrey;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+h1 {
+    font-size: 8em;
+}
+
+a {
+    color : inherit;
+}
+
+@media (max-width: 599px) {
+    h1 {
+        font-size: 4em;
+    }
 }
