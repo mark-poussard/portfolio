@@ -1,6 +1,7 @@
 import React from 'react';
 import './IndexTitle.scss';
 import IndexContact from './IndexContact';
+import IndexPresentationText from './IndexPresentationText';
 
 const IndexTitle : React.FC = props => {
     return (
@@ -8,6 +9,7 @@ const IndexTitle : React.FC = props => {
             <h1>
                 Mark Poussard
             </h1>
+            <IndexPresentationText />
             <IndexContact />
         </div>
     )
