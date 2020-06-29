@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.scss';
-import IndexScreen from './view/screen/index/IndexScreen';
+import Index from './view/screen/index/Index';
 
 const App : React.FunctionComponent = props => {
   return (
     <div className={`App`}>
-      <IndexScreen />
+      <Index />
     </div>
   )
 }

@@ -1,0 +1,13 @@
+.portfolio-transition{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    >.portfolio-transition-button{
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        font-size: 4em;
+    }
+}
