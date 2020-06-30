@@ -1,18 +1,25 @@
 import React from 'react';
+import IndexPresentationText from '../index-flash/IndexPresentationText';
 import './Index.scss';
 import IndexFooter from './IndexFooter';
-import NameTitle from './NameTitle';
-import IndexPresentationText from '../index-flash/IndexPresentationText';
-import ArrowButton from '../../components/button/ArrowButton';
-import PortfolioTransition from './PortfolioTransition';
+import PortfolioButton from './PortfolioButton';
+import { Page } from '../Page';
+import Title from '../../components/text/Title';
 
-const Index : React.FC = props => {
+interface IIndexProps{
+    active : boolean;
+    setPage : (page : Page) => void;
+}
+
+const Index : React.FC<IIndexProps> = props => {
     return (
-        <div className={`index`}>
-            <NameTitle />
+        <div className={`index`} style={{
+            display : (props.active)?"block":"none"
+        }}>
+            <Title>Mark Poussard</Title>
             <IndexPresentationText />
             <IndexFooter />
-            <PortfolioTransition />
+            <PortfolioButton setPage={props.setPage}/>
         </div>
     )
 }

@@ -1,0 +1,8 @@
+.portfolio-box{
+    width: 200vw;
+    text-align: left;
+    overflow: auto;
+    >*{
+        margin-left: 20px;
+    }
+}
