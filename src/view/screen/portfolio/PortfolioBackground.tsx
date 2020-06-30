@@ -7,8 +7,8 @@ interface IPortfolioBackgroundProps{
 
 const PortfolioBackground : React.FC<IPortfolioBackgroundProps> = props => {
     return (
-        <div className={`portfolio-background`} style={{
-            left: (props.active)?`0%`:`100%`
+        <div className={`portfolio-background background-1`} style={{
+            left: (props.active)?`-20%`:`100%`
         }}/>
     )
 }
