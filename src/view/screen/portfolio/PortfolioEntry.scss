@@ -24,3 +24,9 @@
         object-fit: cover;
     }
 }
+
+@media (max-width: 599px) {
+    .portfolio-entry {
+        height: 100px;
+    }
+}

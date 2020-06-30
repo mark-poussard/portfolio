@@ -13,9 +13,7 @@ interface IIndexProps{
 
 const Index : React.FC<IIndexProps> = props => {
     return (
-        <div className={`index`} style={{
-            display : (props.active)?"block":"none"
-        }}>
+        <div className={`index`}>
             <Title>Mark Poussard</Title>
             <IndexPresentationText />
             <IndexFooter />

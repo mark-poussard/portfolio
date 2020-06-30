@@ -1,10 +1,8 @@
 import React from 'react';
-import './Portfolio.scss';
-import PortfolioEntry from './PortfolioEntry';
 import { Page } from '../Page';
-import PortfolioBox from './PortfolioBox';
-import IndexButton from './IndexButton';
-import Title from '../../components/text/Title';
+import './Portfolio.scss';
+import PortfolioBackground from './PortfolioBackground';
+import PortfolioContent from './PortfolioContent';
 
 interface IPortfolioProps{
     active : boolean;
@@ -13,15 +11,9 @@ interface IPortfolioProps{
 
 const Portfolio : React.FC<IPortfolioProps> = props => {
     return (
-        <div className={`portfolio`} style={{
-            display : (props.active)?"block":"none"
-        }}>
-            <Title>Portfolio</Title>
-            <PortfolioBox>
-                <PortfolioEntry thumbnail={`/toetcie-thumbnail.png`} video={`/toetcie-demo.mp4`}/>
-                <PortfolioEntry thumbnail={`/correct-optic-thumbnail.png`}/>
-            </PortfolioBox>
-            <IndexButton setPage={props.setPage} />
+        <div className={`portfolio`}>
+            <PortfolioBackground active={props.active}/>
+            <PortfolioContent active={props.active} setPage={props.setPage}/>
         </div>
     )
 }

@@ -1,8 +1,18 @@
 .portfolio-box{
-    width: 200vw;
-    text-align: left;
+    width: 100%;
     overflow: auto;
-    >*{
-        margin-left: 20px;
+    >.portfolio-box-content{
+        white-space: nowrap;
+        >*{
+            margin-left: 20px;
+        }
+    }
+}
+
+@media (max-width: 599px) {
+    .portfolio-box {
+        >.portfolio-box-content{
+            white-space: unset;
+        }
     }
 }

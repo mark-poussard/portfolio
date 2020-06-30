@@ -4,7 +4,9 @@ import './PortfolioBox.scss';
 const PortfolioBox : React.FC = props => {
     return (
         <div className={`portfolio-box`}>
-            {props.children}
+            <div className={`portfolio-box-content`}>
+                {props.children}
+            </div>
         </div>
     )
 }
