@@ -18,8 +18,8 @@ const PortfolioContent : React.FC<IPortfolioContentProps> = props => {
         }}>
             <Title>Portfolio</Title>
             <PortfolioBox>
-                <PortfolioEntry thumbnail={`/toetcie-thumbnail.png`} video={`/toetcie-demo.mp4`}/>
-                <PortfolioEntry thumbnail={`/correct-optic-thumbnail.png`}/>
+                <PortfolioEntry thumbnail={`toetcie-thumbnail.png`} video={`toetcie-demo.mp4`}/>
+                <PortfolioEntry thumbnail={`correct-optic-thumbnail.png`}/>
             </PortfolioBox>
             <IndexButton setPage={props.setPage} />
         </div>
