@@ -7,9 +7,9 @@ import './IndexFooter.scss';
 const IndexFooter : React.FC = props => {
     return (
         <footer className={`index-footer`}>
-            <a className={`linkedin`} href={`https://www.linkedin.com/in/mark-poussard/`}><LinkedIn /></a>
-            <a className={`github`} href={`https://github.com/mark-poussard`}><Github /></a>
-            <a className={`email`} href={`mailto:poussard.mark@gmail.com`}><Email /></a>
+            <a className={`linkedin`} href={`https://www.linkedin.com/in/mark-poussard/`} target="_blank"><LinkedIn /></a>
+            <a className={`github`} href={`https://github.com/mark-poussard`} target="_blank"><Github /></a>
+            <a className={`email`} href={`mailto:poussard.mark@gmail.com`} target="_blank"><Email /></a>
         </footer>
     )
 }
