@@ -1,0 +1,28 @@
+.bubble-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    &.actif{
+        >.bubble{
+            opacity: 0;
+        }
+        >.expanded-content{
+            opacity: 1;
+        }
+    }
+    transition: clip-path 2s;
+    >.bubble{
+        position: absolute;
+        cursor: pointer;
+        transition: opacity .5s;
+        opacity: 1;
+    }
+    >.expanded-content{
+        transition: opacity .5s;
+        transition-delay: 1s;
+        opacity: 0;
+    }
+}

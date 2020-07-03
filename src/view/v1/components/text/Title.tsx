@@ -1,8 +1,9 @@
 import React from 'react';
+import './Title.scss';
 
 const Title : React.FC = props => {
     return (
-        <h1>
+        <h1 className={`title`}>
             {props.children}
         </h1>
     )
