@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/text/Header';
 
-const Contact : React.FC = props => {
+const Projects : React.FC = props => {
     return (
         <div className={`projets`}>
             <Header>
@@ -13,4 +13,4 @@ const Contact : React.FC = props => {
         </div>
     )
 }
-export default Contact;
+export default Projects;
