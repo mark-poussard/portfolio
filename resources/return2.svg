@@ -58,7 +58,7 @@
      id="layer1">
     <path
        style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 8.9997686,0.9999999 4.305e-4,4.0000004 H 15 V 11 H 9.0001991 v 4 M 6.9999838,15 1,8 6.9999838,1.0000001"
+       d="M 6.9999838,15 1,8 6.9999838,1.0000001 l 1.9997848,-2e-7 4.305e-4,4.0000004 H 15 V 11 H 9.0001991 v 4"
        id="path815"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc" />

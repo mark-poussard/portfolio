@@ -16,13 +16,25 @@ export const DEFAULT_BUBBLE_RADIUS = 100;
 const Bubble : React.FC<IBubbleProps> = props => {
     const vh = useViewportHeight();
     const vw = useViewportWidth();
+    // animation states
     const [hover, setHover] = useState(false);
-    const [actif, setActif] = useState(false);
+    const [foreground, setForeground] = useState(false);
+    const [fillScreen, setFillScreen] = useState(false);
+    const [displayPage, setDisplayPage] = useState(false);
+    // ------
     const onBubbleClick = () => {
-        setActif(true);
+        setForeground(true);
+        setFillScreen(true);
+        setTimeout(() => setDisplayPage(true), 1000);
     }
     const onBack = () => {
-        setActif(false);
+        setDisplayPage(false);
+        setTimeout(() => {
+            setFillScreen(false);
+            setTimeout(() => {
+                setForeground(false);
+            }, 500);
+        }, 500);
     }
     let circleRadius = props.bubbleRadius;
     const circleLeft = props.left+circleRadius;
@@ -31,15 +43,15 @@ const Bubble : React.FC<IBubbleProps> = props => {
     if(hover){
         circleRadius += 10;
     }
-    if(actif){
+    if(fillScreen){
         circleRadius = (vh>vw)?vh:vw;
     }
-    const actifClassName = (actif)?"actif":"";
     return (
-        <div className={`bubble-wrapper ${actifClassName}`} style={{
+        <div className={`bubble-wrapper`} style={{
             backgroundColor : props.backgroundColor,
             clipPath : `circle(${circleRadius}px at ${circleLeft}px ${circleTop}px )`,
-            transition: (actif)?`clip-path 1s`:`clip-path 0.5s`,
+            transition: (fillScreen)?`clip-path 1s`:`clip-path 0.5s`,
+            zIndex: (foreground)?1:undefined,
         }}
         onMouseOver={() => setHover(true)}
         onMouseOut={() => setHover(false)}>
@@ -47,15 +59,24 @@ const Bubble : React.FC<IBubbleProps> = props => {
                 top : `${props.top}px`,
                 left : `${props.left}px`,
                 width : `${contentSize*2}px`,
-                height : `${contentSize*2}px`
+                height : `${contentSize*2}px`,
+                visibility: (fillScreen)?"hidden":"visible",
+                opacity: (fillScreen)?0:1,
             }} onClick={onBubbleClick}>
                 <div className={`bubble-content`}>
                     {props.bubbleContent}
                 </div>
             </div>
-            <div className={`expanded-content`}>
+            <div className={`expanded-content`} style={{
+                opacity: (displayPage)?1:0,
+                visibility: (fillScreen)?"visible":"hidden"
+            }}>
                 <BubbleReturn onClick={onBack} />
-                {props.children}
+                <div className={`expanded-content-page`} style={{
+                    top: (displayPage)?"0px":"10px"
+                }}>
+                    {props.children}
+                </div>
             </div>
         </div>
     )

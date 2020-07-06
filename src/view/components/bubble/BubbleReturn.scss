@@ -5,6 +5,7 @@
     left : 20px;
     cursor: pointer;
     transition: transform .5s;
+    z-index: 1;
     &:hover{
         transform : scale(1.2);
     }
