@@ -6,19 +6,28 @@
     bottom: 0;
 
     &.actif{
+        z-index: 1;
         >.bubble{
+            visibility: hidden;
             opacity: 0;
         }
         >.expanded-content{
             opacity: 1;
         }
     }
-    transition: clip-path 2s;
+    transition: clip-path 1s;
     >.bubble{
         position: absolute;
         cursor: pointer;
-        transition: opacity .5s;
+        transition: visibility .5s, opacity .5s, left 1s, top 1s;
         opacity: 1;
+        visibility: visible;
+        >.bubble-content{
+            position: absolute;
+            top: 47%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+        }
     }
     >.expanded-content{
         transition: opacity .5s;

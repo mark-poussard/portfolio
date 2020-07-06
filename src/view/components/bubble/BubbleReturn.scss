@@ -1,0 +1,17 @@
+.bubble-return{
+    font-size: 43px;
+    position: absolute;
+    top : 20px;
+    left : 20px;
+    cursor: pointer;
+    transition: transform .5s;
+    &:hover{
+        transform : scale(1.2);
+    }
+}
+
+@media (max-width: 599px) {
+    .bubble-return {
+        font-size: 33px;
+    }
+}

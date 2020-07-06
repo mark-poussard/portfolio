@@ -1,5 +1,11 @@
 .local-selector{
     position: fixed;
-    top: 10px;
+    z-index: 10;
+    top: 5px;
     right: 10px;
+    cursor: pointer;
+    >.local-selector-lang{
+        opacity: 1;
+        transition: opacity .5s;
+    }
 }

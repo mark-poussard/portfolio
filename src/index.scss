@@ -1,11 +1,12 @@
 @import './colors.scss';
+@import './fonts.scss';
 
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Timeless, serif;
   background-color: black;
-  color: white;
+  color: var(--color-white);
   overflow: hidden;
   width: 100vw;
   height: 100vh;
@@ -21,6 +22,10 @@ body {
 
 h1 {
     font-size: 6em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Kiona, sans-serif;
 }
 
 a {
