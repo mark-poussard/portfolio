@@ -22,10 +22,25 @@ body {
 
 h1 {
     font-size: 6em;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Kiona, sans-serif;
+}
+
+h2{
+    font-size: 3.5em;
+    text-align: left;
+}
+
+h3{
+    font-size: 24px;
+    text-align: center;
+}
+
+p, ul{
+    text-align: justify;
 }
 
 a {
@@ -35,5 +50,8 @@ a {
 @media (max-width: 599px) {
     h1 {
         font-size: 4em;
+    }
+    h2{
+        font-size: 2.5em;
     }
 }

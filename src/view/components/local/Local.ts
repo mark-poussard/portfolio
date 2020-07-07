@@ -1,6 +1,9 @@
-export interface ILocalProps{
-    en : string;
-    fr : string;
+export interface ILocalProps extends ILocalTrnsl<string>{
+}
+
+export interface ILocalTrnsl<T>{
+    en : T;
+    fr : T;
 }
 
 export default class Local{

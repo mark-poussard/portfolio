@@ -1,11 +1,12 @@
 import React from 'react';
+import LocalDiv, { ILocalDivContent } from '../components/local/LocalDiv';
 import './ProjectLine.scss';
-import Paragraph from '../components/text/Paragraph';
-import { ILocalProps } from '../components/local/Local';
+import ImageDiv from '../components/media/ImageDiv';
 
 interface IProjectLineProps{
     name : string;
-    children : ILocalProps;
+    illustration : string;
+    children : ILocalDivContent;
 }
 
 const ProjectLine : React.FC<IProjectLineProps> = props => {
@@ -13,10 +14,12 @@ const ProjectLine : React.FC<IProjectLineProps> = props => {
         <div className={`project-line`}>
             <div className={`project-details`}>
                 <h2>{props.name}</h2>
-                <Paragraph>{props.children}</Paragraph>
+                <LocalDiv>
+                    {props.children}
+                </LocalDiv>
             </div>
-            <div className={`project-illustration`}>
-            </div>
+            <ImageDiv className={`project-illustration background`} src={props.illustration}/>
+            <ImageDiv className={`project-illustration foreground`} src={props.illustration}/>
         </div>
     )
 }

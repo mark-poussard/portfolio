@@ -7,18 +7,19 @@ import AboutBubble from '../about/AboutBubble';
 import ContactBubble from '../contact/ContactBubble';
 import ProjectsBubble from '../projects/ProjectsBubble';
 import LocalSelector from '../components/local/LocalSelector';
+import Subtitle from '../components/text/Subtitle';
 
 const Index : React.FC = props => {
     return (
         <div className={`index`}>
             <LocalSelector />
             <Title>Mark Poussard</Title>
-            <Paragraph>
+            <Subtitle>
             {{
-                "en" : "",
-                "fr" : ""
+                en : "Full stack developer",
+                fr : "Ingénieur informatique"
             }}
-            </Paragraph>
+            </Subtitle>
             <AboutBubble />
             <ContactBubble />
             <ProjectsBubble />

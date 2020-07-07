@@ -1,18 +1,42 @@
 .project-line{
+    position: relative;
+    margin-top: 30px;
     >.project-details{
         display: inline-block;
-        width: 50%;
+        width: 65%;
+        background-color: var(--color-indigo-white);
+        border-radius: 5px;
+        padding: 0 20px;
     }
     >.project-illustration{
-        display: inline-block;
-        width: 50%;
+        position: absolute;
+        height: 100%;
+        width: 65%;
+        top: -30px;
+        left: 30%;
+        background-color: var(--color-ming);
+        border-radius: 5px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        &.background{
+            z-index: -2;
+        }
+        &.foreground{
+            z-index: -1;
+            transition: opacity .5s;
+            opacity: 0;
+            &:hover{
+                opacity: 0.8;
+                z-index: 1;
+            }
+        }
     }
 }
 
 @media (max-width: 599px) {
     .project-line {
         >.project-details{
-            width: 100%;
+            // width: 100%;
         }
     }
 }

@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from '../components/text/Header';
 import ProjectLine from './ProjectLine';
+import './Projects.scss';
+import ToetcieProject from './toetcie/ToetcieProject';
 
 const Projects : React.FC = props => {
     return (
@@ -11,12 +13,7 @@ const Projects : React.FC = props => {
                 fr : "Projets"
             }}
             </Header>
-            <ProjectLine name={`To & Cie`}>
-            {{
-                en : "Working on restaurant website",
-                fr : "Mise en place d'un site pour le restaurant"
-            }}
-            </ProjectLine>
+            <ToetcieProject />
         </div>
     )
 }

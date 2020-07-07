@@ -9,9 +9,9 @@ interface ISubHeaderProps extends React.DetailedHTMLProps<React.HTMLAttributes<H
 const SubHeader = (props : ISubHeaderProps) => {
     const {children, ...otherProps} = props;
     return (
-        <h2 {...otherProps}>
+        <h3 {...otherProps}>
             <LocalText {...children} />
-        </h2>
+        </h3>
     )
 }
 export default SubHeader;

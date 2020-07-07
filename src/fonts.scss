@@ -27,3 +27,10 @@
     src: url('/font/Timeless-Bold.woff') format('woff'),
          url('/font/Timeless-Bold.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: Broadway;
+    font-display: swap;
+    src: url('/font/Broadway_Regular.woff') format('woff'),
+         url('/font/Broadway_Regular.ttf') format('truetype');
+  }

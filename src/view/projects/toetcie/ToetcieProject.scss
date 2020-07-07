@@ -1,0 +1,26 @@
+.toetcie-project{
+    .toetcie-media{
+        >.toetcie-media-columns{
+            columns: 100px 2;
+            column-gap: 20px;
+            >*{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+        >.toetcie-media-footer{
+            >*{
+                width: 100%;
+            }
+        }
+    }
+}
+@media (max-width: 599px) {
+    .toetcie-project{
+        .toetcie-media{
+            >.toetcie-media-columns{
+                column-count: 1;
+            }
+        }
+    }
+}
