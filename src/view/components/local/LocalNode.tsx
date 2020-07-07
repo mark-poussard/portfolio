@@ -5,6 +5,7 @@ import './LocalNode.scss';
 
 interface ILocalNodeProps extends ILocalTrnsl<React.ReactNode>{
     block ?: boolean;
+    className ?: string;
 }
 
 const LocalNode : React.FC<ILocalNodeProps> = props => {
@@ -18,6 +19,7 @@ const LocalNode : React.FC<ILocalNodeProps> = props => {
                 return null;
         }
     }
+    const className = (props.className != null)?props.className:"";
     const local = useContext(LocalValueContext);
     const [node, setNode] = useState(getNode(local));
     const [hide, setHide] = useState(false);
@@ -29,7 +31,7 @@ const LocalNode : React.FC<ILocalNodeProps> = props => {
         }, 500);
     }, [local]);
     return (
-        <span className={`local-node`} style={{
+        <span className={`local-node ${className}`} style={{
             top: (hide)?"10px":"0px",
             opacity: (hide)?0:1,
             display: (props.block === true)?"block":undefined
