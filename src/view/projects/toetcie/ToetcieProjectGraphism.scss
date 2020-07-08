@@ -1,0 +1,38 @@
+.toetcie-project-graphism{
+    >*{
+        vertical-align: middle;
+    }
+    >.toetcie-project-graphism-text{
+        display: inline-block;
+        width: calc(50% - 1.5%);
+        margin-right: 3%;
+        p{
+            margin-top: 0;
+        }
+    }
+    >.toetcie-project-graphism-illustration{
+        display: inline-block;
+        width: calc(50% - 1.5%);
+        text-align: center;
+        >.toetcie-project-graphism-illustration-circle{
+            width: 50%;
+            display: inline-block;
+            background-color: white;
+            clip-path: circle(50%);
+        }
+    }
+}
+@media (max-width: 599px) {
+    .toetcie-project-graphism{
+        >.toetcie-project-graphism-illustration{
+            width: 100%;
+            >.logo-svg{
+                width: 65%;
+            }
+        }
+        >.toetcie-project-graphism-text{
+            width: 100%;
+            margin-right: 0;
+        }
+    }
+}

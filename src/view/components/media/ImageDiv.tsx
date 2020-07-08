@@ -10,7 +10,7 @@ const ImageDiv : React.FC<IImageDivProps> = props => {
     className = (className != null)? className : "";
     style = (style != null)? style : {};
     style = Object.assign(style, {
-        backgroundImage : `url('${props.src}')`
+        // backgroundImage : `url('${props.src}')`
     });
     return (
         <img className={`image-div ${className}`} style={style} {...otherProps}/>

@@ -1,0 +1,36 @@
+.toetcie-project-mobile{
+    >*{
+        vertical-align: middle;
+    }
+    >.toetcie-project-mobile-illustration{
+        display: inline-block;
+        width: calc(50% - 1.5%);
+        text-align: center;
+        margin-right: 3%;
+        >img{
+            width: 50%;
+        }
+    }
+    >.toetcie-project-mobile-text{
+        display: inline-block;
+        width: calc(50% - 1.5%);
+        p{
+            margin-top: 0;
+        }
+    }
+}
+@media (max-width: 599px) {
+    .toetcie-project-mobile{
+        >.toetcie-project-mobile-header{
+            width: 100%;
+            margin-left: 0;
+        }
+        >.toetcie-project-mobile-illustration{
+            width: 100%;
+            margin-right: 0;
+        }
+        >.toetcie-project-mobile-text{
+            width: 100%;
+        }
+    }
+}

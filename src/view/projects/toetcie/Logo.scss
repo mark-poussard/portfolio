@@ -1,0 +1,48 @@
+.logo-svg{
+
+}
+
+@keyframes svg-logo-outer-circle-rotate {
+    0%, 25% {
+        stroke-dasharray: 600;
+        stroke-dashoffset: 600;
+    }
+    to {
+        stroke-dasharray: 600;
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes svg-logo-chopsticks-left {
+    0%, 25% {
+        stroke-opacity: 0;
+        fill-opacity: 0;
+        transform: translateY(-20px) translateX(-20px);
+    }
+}
+@keyframes svg-logo-chopsticks-right {
+    0%, 25% {
+        stroke-opacity: 0;
+        fill-opacity: 0;
+        transform: translateY(-20px) translateX(20px);
+    }
+}
+@keyframes svg-logo-background-leaf-left {
+    0%, 25% {
+        stroke-opacity: 0;
+        fill-opacity: 0;
+        transform: rotate(-90deg);
+    }
+}
+@keyframes svg-logo-background-leaf-right {
+    0%, 25% {
+        stroke-opacity: 0;
+        fill-opacity: 0;
+        transform: rotate(90deg);
+    }
+}
+@keyframes svg-logo-text {
+    0%, 25% {
+        stroke-opacity: 0;
+        fill-opacity: 0;
+    }
+}

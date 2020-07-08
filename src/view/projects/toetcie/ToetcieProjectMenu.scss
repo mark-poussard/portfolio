@@ -1,0 +1,29 @@
+.toetcie-project-menu{
+    >*{
+        vertical-align: middle;
+    }
+    >.toetcie-project-menu-illustration{
+        display: inline-block;
+        width: calc(50% - 1.5%);
+        text-align: center;
+        margin-right: 3%;
+    }
+    >.toetcie-project-menu-text{
+        display: inline-block;
+        width: calc(50% - 1.5%);
+        p{
+            margin-top: 0;
+        }
+    }
+}
+@media (max-width: 599px) {
+    .toetcie-project-menu{
+        >.toetcie-project-menu-illustration{
+            width: 100%;
+            margin-right: 0;
+        }
+        >.toetcie-project-menu-text{
+            width: 100%;
+        }
+    }
+}

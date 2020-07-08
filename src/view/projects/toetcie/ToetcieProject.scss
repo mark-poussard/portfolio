@@ -1,28 +1,16 @@
 .toetcie-project{
-    .toetcie-project-content{
+    transform-style: preserve-3d;
+    >.project-section-content{
+        transform-style: preserve-3d;
         >*{
-            vertical-align: top;
-        }
-        >.toetcie-project-intro{
-            display: inline-block;
-            width: calc(50% - 1.5%);
-            margin-right: 3%;
-            p{
+            margin-top: 100px;
+            &:first-child{
                 margin-top: 0;
             }
-        }
-        >.toetcie-project-intro-illustration{
-            display: inline-block;
-            width: calc(50% - 1.5%);
         }
     }
 }
 @media (max-width: 599px) {
     .toetcie-project{
-        .toetcie-media{
-            >.toetcie-media-columns{
-                column-count: 1;
-            }
-        }
     }
 }
