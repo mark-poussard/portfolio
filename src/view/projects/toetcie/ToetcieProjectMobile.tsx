@@ -1,6 +1,5 @@
 import React from 'react';
 import LocalDiv from '../../components/local/LocalDiv';
-import ImageDiv from '../../components/media/ImageDiv';
 import './ToetcieProjectMobile.scss';
 import ProjectSubSection from '../ProjectSubSection';
 
@@ -16,7 +15,7 @@ const ToetcieProjectMobile : React.FC = props => {
             </LocalDiv>
         }
         illustration={
-            <ImageDiv className={`toetcie-project-mobile-illustration`}  
+            <img className={`toetcie-project-mobile-illustration`}  
                 src={`media/toetcie-mobile.png`} />
         }
         left>

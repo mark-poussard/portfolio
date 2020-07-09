@@ -1,0 +1,33 @@
+.about{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.1), transparent, rgba(0, 0, 0, 0.1));
+
+    >h1{
+        margin-bottom: 30px;
+    }
+    >.about-content{
+        margin-left: calc(3% + 150px);
+        padding: 0 3%;
+        height: calc(100vh - 116px - 30px - 64px);
+        overflow-x: hidden;
+        overflow-y: auto;
+        >.about-absolute-catcher{
+            position: relative;
+        }
+    }
+}
+
+@media (max-width: 599px) {
+    .about{
+        >.about-content{
+            height: calc(100vh - 77px - 42px - 30px - 110px);
+            margin : 20px;
+            padding: 0;
+        }
+    }
+}

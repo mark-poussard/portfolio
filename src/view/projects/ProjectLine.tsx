@@ -1,7 +1,6 @@
 import React from 'react';
 import LocalDiv, { ILocalDivContent } from '../components/local/LocalDiv';
 import './ProjectLine.scss';
-import ImageDiv from '../components/media/ImageDiv';
 
 interface IProjectLineProps{
     name : string;
@@ -18,8 +17,8 @@ const ProjectLine : React.FC<IProjectLineProps> = props => {
                     {props.children}
                 </LocalDiv>
             </div>
-            <ImageDiv className={`project-illustration background`} src={props.illustration}/>
-            <ImageDiv className={`project-illustration foreground`} src={props.illustration}/>
+            <img className={`project-illustration background`} src={props.illustration}/>
+            <img className={`project-illustration foreground`} src={props.illustration}/>
         </div>
     )
 }

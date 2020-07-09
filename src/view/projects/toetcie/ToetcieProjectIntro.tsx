@@ -1,8 +1,8 @@
 import React from 'react';
 import LocalDiv from '../../components/local/LocalDiv';
-import ImageDiv from '../../components/media/ImageDiv';
 import ProjectSubSection from '../ProjectSubSection';
 import './ToetcieProjectIntro.scss';
+import ParallaxDivScroller from '../../components/parallax/ParallaxDivScroller';
 
 interface IToetcieProjectIntroProps{
     projectsRef : HTMLDivElement;
@@ -12,10 +12,11 @@ const ToetcieProjectIntro : React.FC<IToetcieProjectIntroProps> = props => {
     return (
         <ProjectSubSection className={`toetcie-project-intro`}
             illustration={
-                <ImageDiv className={`toetcie-project-intro-illustration`} 
+                <img className={`toetcie-project-intro-illustration`} 
                     src={`media/toetcie-intro.jpg`} />
                 // <ParallaxDivScroller className={`toetcie-project-intro-illustration`}
                 //     scrollDiv={props.projectsRef}>
+                // <img src={`media/toetcie-intro.jpg`} />
                 // </ParallaxDivScroller>
             }>
             <LocalDiv>

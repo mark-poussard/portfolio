@@ -1,7 +1,6 @@
 import React from 'react';
 import './ToetcieProjectEditable.scss';
 import LocalDiv from '../../components/local/LocalDiv';
-import ImageDiv from '../../components/media/ImageDiv';
 import ProjectSubSection from '../ProjectSubSection';
 
 const ToetcieProjectEditable : React.FC = props => {
@@ -16,7 +15,7 @@ const ToetcieProjectEditable : React.FC = props => {
                 </LocalDiv>
             }
             illustration={
-                <ImageDiv className={`toetcie-project-editable-illustration`} 
+                <img className={`toetcie-project-editable-illustration`} 
                     src={`media/toetcie-editable.png`} />
             }
             left>

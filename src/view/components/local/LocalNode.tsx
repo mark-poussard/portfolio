@@ -2,6 +2,7 @@ import React, { useContext, useState, useEffect } from 'react';
 import Local, { ILocalProps, ILocalTrnsl } from './Local';
 import { LocalValueContext } from './LocalContext';
 import './LocalNode.scss';
+import { useUpdate } from '../../hooks/UseUpdate';
 
 interface ILocalNodeProps extends ILocalTrnsl<React.ReactNode>{
     block ?: boolean;
@@ -23,7 +24,7 @@ const LocalNode : React.FC<ILocalNodeProps> = props => {
     const local = useContext(LocalValueContext);
     const [node, setNode] = useState(getNode(local));
     const [hide, setHide] = useState(false);
-    useEffect(() => {
+    useUpdate(() => {
         setHide(true);
         setTimeout(() => {
             setNode(getNode(local));

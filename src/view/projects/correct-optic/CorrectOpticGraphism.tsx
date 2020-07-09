@@ -1,7 +1,6 @@
 import React from 'react';
 import ProjectSubSection from '../ProjectSubSection';
 import LocalDiv from '../../components/local/LocalDiv';
-import ImageDiv from '../../components/media/ImageDiv';
 import './CorrectOpticGraphism.scss';
 
 const CorrectOpticGraphism : React.FC = props => {
@@ -16,7 +15,7 @@ const CorrectOpticGraphism : React.FC = props => {
             </LocalDiv>
         }
         illustration={
-            <ImageDiv className={`correct-optic-project-graphism-illustration`} 
+            <img className={`correct-optic-project-graphism-illustration`} 
                 src={`media/correct-optic-graphism.png`}/>
         }
         left>

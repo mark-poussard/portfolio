@@ -1,7 +1,6 @@
 import React from 'react';
 import './ToetcieProjectOrder.scss';
 import LocalDiv from '../../components/local/LocalDiv';
-import ImageDiv from '../../components/media/ImageDiv';
 import ProjectSubSection from '../ProjectSubSection';
 
 const ToetcieProjectOrder : React.FC = props => {
@@ -16,7 +15,7 @@ const ToetcieProjectOrder : React.FC = props => {
                 </LocalDiv>
             }
             illustration={
-                <ImageDiv className={`toetcie-project-order-illustration`}  src={`media/toetcie-order.png`} />
+                <img className={`toetcie-project-order-illustration`}  src={`media/toetcie-order.png`} />
             }>
             <LocalDiv>
             {{

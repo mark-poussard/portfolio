@@ -1,0 +1,38 @@
+.about-bar{
+    position: absolute;
+    left: 3%;
+    top: 35vh;
+    text-align: center;
+    >.cv-toggle-button{
+        display: block;
+    }
+    >.linkedin-link, >.github-link, >.email-link{
+        display: block;
+        font-size: 40px;
+        transform: perspective(100px) translateZ(0);
+        transition: transform .5s;
+        &:hover{
+            transform: perspective(100px) translateZ(10px);
+        }
+    }
+    >.github-link, >.email-link{
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 599px) {
+    .about-bar{
+        position: relative;
+        left: 0;
+        top: 0;
+        >.cv-toggle-button{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        >.linkedin-link, >.github-link, >.email-link{
+            display: inline-block;
+            width: 33%;
+            margin-top: 0;
+        }
+    }
+}

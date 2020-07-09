@@ -1,6 +1,5 @@
 import React from 'react';
 import LocalDiv from '../../components/local/LocalDiv';
-import ImageDiv from '../../components/media/ImageDiv';
 import ProjectSubSection from '../ProjectSubSection';
 import './CorrectOpticProjectIntro.scss';
 
@@ -8,7 +7,7 @@ const CorrectOpticProjectIntro : React.FC = props => {
     return (
         <ProjectSubSection className={`correct-optic-project-intro`}
             illustration={
-                <ImageDiv className={`correct-optic-project-intro-illustration`} 
+                <img className={`correct-optic-project-intro-illustration`} 
                     src={`media/correct-optic-intro.jpg`} />
             }>
             <LocalDiv>

@@ -1,0 +1,12 @@
+.cv-toggle-button{
+    border-top: solid white;
+    border-bottom: solid white;
+    font-size: 30px;
+    font-family: Kiona, sans-serif;
+    margin: 20px 0;
+    width: 150px;
+    transition: transform .5s;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
