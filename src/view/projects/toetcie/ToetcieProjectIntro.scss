@@ -1,40 +1,16 @@
 .toetcie-project-intro{
-    transform-style: preserve-3d;
-    >*{
-        vertical-align: middle;
-    }
-    >.toetcie-project-intro-text{
-        display: inline-block;
-        width: calc(50% - 1.5%);
-        margin-right: 3%;
-        transform: translateZ(0);
-        p{
-            margin-top: 0;
-        }
-    }
-    >.toetcie-project-intro-illustration{
-        display: inline-block;
-        width: calc(50% - 1.5%);
-        text-align: center;
+    .toetcie-project-intro-illustration{
         //scale = (perspective - distance) / perspective
         // transform: translateZ(25px) translateX(calc((-50% / 2) - 1.5%)) scale(0.5);
-        >img{
-            max-width: 1175px;
-            width: 60%;
-            clip-path: circle(50%);
-        }
+        max-width: 1175px;
+        width: 60%;
+        clip-path: circle(50%);
     }
 }
 
 @media (max-width: 599px) {
     .toetcie-project-intro{
-        >.toetcie-project-intro-text{
-            width: 100%;
-            margin-right: 0;
-        }
-        >.toetcie-project-intro-illustration{
-            margin-top: 30px;
-            width: 100%;
+        .toetcie-project-intro-illustration{
             transform: none;
         }
     }

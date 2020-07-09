@@ -1,41 +1,6 @@
 .toetcie-project-editable{
-    >*{
-        vertical-align: middle;
-    }
-    >.toetcie-project-editable-illustration{
-        display: inline-block;
-        width: calc(50% - 1.5%);
-        text-align: center;
-        margin-right: 3%;
-        >img{
-            border-radius: 5px;
-            max-width: 220px;
-        }
-        &.mobile{
-            display: none;
-        }
-    }
-    >.toetcie-project-editable-text{
-        display: inline-block;
-        width: calc(50% - 1.5%);
-        p{
-            margin-top: 0;
-        }
-    }
-}
-@media (max-width: 599px) {
-    .toetcie-project-editable{
-        >.toetcie-project-editable-illustration{
-            display: none;
-            width: 100%;
-            margin-right: 0;
-            margin-top: 30px;
-            &.mobile{
-                display: inline-block;
-            }
-        }
-        >.toetcie-project-editable-text{
-            width: 100%;
-        }
+    .toetcie-project-editable-illustration{
+        border-radius: 5px;
+        max-width: 220px;
     }
 }

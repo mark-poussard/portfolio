@@ -1,35 +1,7 @@
 .toetcie-project-order{
-    >*{
-        vertical-align: middle;
-    }
-    >.toetcie-project-order-text{
-        display: inline-block;
-        width: calc(50% - 1.5%);
-        margin-right: 3%;
-        p{
-            margin-top: 0;
-        }
-    }
-    >.toetcie-project-order-illustration{
-        display: inline-block;
-        width: calc(50% - 1.5%);
-        text-align: center;
-        >img{
-            border-radius: 5px;
-            width: 65%;
-            max-width: 450px;
-        }
-    }
-}
-@media (max-width: 599px) {
-    .toetcie-project-order{
-        >.toetcie-project-order-illustration{
-            margin-top: 30px;
-            width: 100%;
-        }
-        >.toetcie-project-order-text{
-            width: 100%;
-            margin-right: 0;
-        }
+    .toetcie-project-order-illustration{
+        border-radius: 5px;
+        width: 65%;
+        max-width: 450px;
     }
 }

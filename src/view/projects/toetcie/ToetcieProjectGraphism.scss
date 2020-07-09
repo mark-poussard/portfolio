@@ -1,36 +1,5 @@
 .toetcie-project-graphism{
-    >*{
-        vertical-align: middle;
-    }
-    >.toetcie-project-graphism-text{
-        display: inline-block;
-        width: calc(50% - 1.5%);
-        margin-right: 3%;
-        p{
-            margin-top: 0;
-        }
-    }
-    >.toetcie-project-graphism-illustration{
-        display: inline-block;
-        width: calc(50% - 1.5%);
-        text-align: center;
-        >.logo-svg{
-            width: 65%;
-        }
-    }
-}
-@media (max-width: 599px) {
-    .toetcie-project-graphism{
-        >.toetcie-project-graphism-illustration{
-            margin-top: 30px;
-            width: 100%;
-            >.logo-svg{
-                width: 65%;
-            }
-        }
-        >.toetcie-project-graphism-text{
-            width: 100%;
-            margin-right: 0;
-        }
+    .toetcie-project-graphism-illustration{
+        width: 65%;
     }
 }

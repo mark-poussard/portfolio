@@ -3,6 +3,7 @@ import Header from '../components/text/Header';
 import ProjectLine from './ProjectLine';
 import './Projects.scss';
 import ToetcieProject from './toetcie/ToetcieProject';
+import CorrectOpticProject from './correct-optic/CorrectOpticProject';
 
 const Projects : React.FC = props => {
     return (
@@ -13,7 +14,10 @@ const Projects : React.FC = props => {
                 fr : "Projets"
             }}
             </Header>
-            <ToetcieProject />
+            <div className={`projets-list`}>
+                <ToetcieProject />
+                <CorrectOpticProject />
+            </div>
         </div>
     )
 }
