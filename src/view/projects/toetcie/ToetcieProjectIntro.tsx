@@ -17,22 +17,22 @@ const ToetcieProjectIntro : React.FC = props => {
                     <>
                         <p>
                             Tô & Cie est une cantine Vietnamienne proposant une cuisine authentique et familiale.
-                            Dans le cadre de la digitalisation du restaurant, j'ai participé a la conception et a la réalisation d'un site web réactif, flexible, capable de commande en ligne.
+                            Dans le cadre de la digitalisation du restaurant, j'ai participé à la conception et à la réalisation d'un site web réactif, flexible et permettant au client de commander en ligne.
                         </p>
                         <p>
-                            Afin de m'assurer que le site présenterais au mieux l'esprit et l'atmosphére de la cantine, je me suis rendu sur place pour une discussion avec le restaurateur.
-                            Au fil de cette discussion et au travers des divers échange, nous avons pu dégager l'essentiel, l'ADN de ce qui fait Tô & cie ainsi que les besoins principaux auxquel le site se devrait de répondre.
+                            Afin de m'assurer que le site représenterait au mieux l'esprit et l'atmosphère de la cantine, je me suis rendu sur place pour une discussion avec le restaurateur.
+                            Au fil de cette discussion et au travers des divers échanges, nous avons pu dégager l'essentiel, l'ADN de ce qui fait Tô & cie ainsi que les besoins principaux auxquels le site se devrait de répondre.
                         </p>
                     </>,
                 fr : 
                     <>
                         <p>
                             Tô & Cie est une cantine Vietnamienne proposant une cuisine authentique et familiale.
-                            Dans le cadre de la digitalisation du restaurant, j'ai participé a la conception et a la réalisation d'un site web réactif, flexible, capable de commande en ligne.
+                            Dans le cadre de la digitalisation du restaurant, j'ai participé à la conception et à la réalisation d'un site web réactif, flexible et permettant au client de commander en ligne.
                         </p>
                         <p>
-                            Afin de m'assurer que le site présenterais au mieux l'esprit et l'atmosphére de la cantine, je me suis rendu sur place pour une discussion avec le restaurateur.
-                            Au fil de cette discussion et au travers des divers échange, nous avons pu dégager l'essentiel, l'ADN de ce qui fait Tô & cie ainsi que les besoins principaux auxquel le site se devrait de répondre.
+                            Afin de m'assurer que le site représenterait au mieux l'esprit et l'atmosphère de la cantine, je me suis rendu sur place pour une discussion avec le restaurateur.
+                            Au fil de cette discussion et au travers des divers échanges, nous avons pu dégager l'essentiel, l'ADN de ce qui fait Tô & cie ainsi que les besoins principaux auxquels le site se devrait de répondre.
                         </p>
                     </>
             }}
