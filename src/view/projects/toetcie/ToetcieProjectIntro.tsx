@@ -13,17 +13,23 @@ const ToetcieProjectIntro : React.FC = props => {
                     en : 
                         <>
                             <p>
-                                Conception et réalisation d'un site web pour le restaurant Tô & cie.
-                                Rencontre client pour la mise au point de la maquette et le détail des fonctionalitées attendues.
-                                Prise de photos et de croquis afin de distiller l'ADN du restaurant.
+                                Tô & Cie est une cantine Vietnamienne proposant une cuisine authentique et familiale.
+                                Dans le cadre de la digitalisation du restaurant, j'ai participé a la conception et a la réalisation d'un site web réactif, flexible, capable de commande en ligne.
+                            </p>
+                            <p>
+                                Afin de m'assurer que le site présenterais au mieux l'esprit et l'atmosphére de la cantine, je me suis rendu sur place pour une discussion avec le restaurateur.
+                                Au fil de cette discussion et au travers des divers échange, nous avons pu dégager l'essentiel, l'ADN de ce qui fait Tô & cie ainsi que les besoins principaux auxquel le site se devrait de répondre.
                             </p>
                         </>,
                     fr : 
                         <>
                             <p>
-                                Conception et réalisation d'un site web pour le restaurant Tô & cie.
-                                Rencontre client pour la mise au point de la maquette et le détail des fonctionalitées attendues.
-                                Prise de photos et de croquis afin de distiller l'ADN du restaurant.
+                                Tô & Cie est une cantine Vietnamienne proposant une cuisine authentique et familiale.
+                                Dans le cadre de la digitalisation du restaurant, j'ai participé a la conception et a la réalisation d'un site web réactif, flexible, capable de commande en ligne.
+                            </p>
+                            <p>
+                                Afin de m'assurer que le site présenterais au mieux l'esprit et l'atmosphére de la cantine, je me suis rendu sur place pour une discussion avec le restaurateur.
+                                Au fil de cette discussion et au travers des divers échange, nous avons pu dégager l'essentiel, l'ADN de ce qui fait Tô & cie ainsi que les besoins principaux auxquel le site se devrait de répondre.
                             </p>
                         </>
                 }}

@@ -14,17 +14,15 @@
         display: inline-block;
         width: calc(50% - 1.5%);
         text-align: center;
-        >.toetcie-project-graphism-illustration-circle{
-            width: 50%;
-            display: inline-block;
-            background-color: white;
-            clip-path: circle(50%);
+        >.logo-svg{
+            width: 65%;
         }
     }
 }
 @media (max-width: 599px) {
     .toetcie-project-graphism{
         >.toetcie-project-graphism-illustration{
+            margin-top: 30px;
             width: 100%;
             >.logo-svg{
                 width: 65%;

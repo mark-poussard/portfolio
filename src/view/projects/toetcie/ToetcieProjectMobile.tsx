@@ -1,9 +1,7 @@
 import React from 'react';
-import ImageDiv from '../../components/media/ImageDiv';
-import ProjectSubSection from '../ProjectSubSection';
 import LocalDiv from '../../components/local/LocalDiv';
+import ImageDiv from '../../components/media/ImageDiv';
 import './ToetcieProjectMobile.scss';
-import SubHeader from '../../components/text/SubHeader';
 
 const ToetcieProjectMobile : React.FC = props => {
     return (
@@ -25,19 +23,26 @@ const ToetcieProjectMobile : React.FC = props => {
                     en : 
                         <>
                             <p>
-                                75% du trafic sur les sites de restauration sont sur des support mobile. 
-                                C'est pourquoi il est essentiel que le site web puisse d'adapter sans encombre sur ces supports.
+                                Une étude du marché et des statistiques d'utilisation nous dévoile que plus de 75% des utilisateurs navigue sur le site web en utilisant des supports mobile.
+                            </p>
+                            <p>
+                                Face à cette réalité il est absolument essentiel de proposer une solution réactive capable de s'adapter à divers support tout en gardant une lisibilité et une navigation impeccable, sans dégradation des fonctionnalitées du site web.
                             </p>
                         </>,
                     fr : 
                         <>
                             <p>
-                                75% du trafic sur les sites de restauration sont sur des support mobile. 
-                                C'est pourquoi il est essentiel que le site web puisse d'adapter sans encombre sur ces supports.
+                                Une étude du marché et des statistiques d'utilisation nous dévoile que plus de 75% des utilisateurs navigue sur le site web en utilisant des supports mobile.
+                            </p>
+                            <p>
+                                Face à cette réalité il est absolument essentiel de proposer une solution réactive capable de s'adapter à divers support tout en gardant une lisibilité et une navigation impeccable, sans dégradation des fonctionnalitées du site web.
                             </p>
                         </>
                 }}
                 </LocalDiv>
+            </div>
+            <div className={`toetcie-project-mobile-illustration mobile`}>
+                <ImageDiv src={`media/toetcie-mobile.png`} />
             </div>
         </div>
     )

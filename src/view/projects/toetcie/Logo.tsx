@@ -4,16 +4,27 @@ import './Logo.scss';
 interface ILogoProps extends React.SVGProps<SVGSVGElement>{
     animate ?: boolean;
     fillCircle ?: boolean;
+    backgroundCircle ?: boolean;
 }
 
 const Logo : React.FC<ILogoProps> = props => {
     let {viewBox, className, animate, fillCircle, ...otherProps} = props;
     className = (className != null) ? className : "";
     return (
-        <svg viewBox="0 0 223.14803 228.55574" 
+        <svg viewBox="-30 -30 285 285" 
             className={`logo-svg ${className}`} {...otherProps}>
 
             <g transform="translate(13.218822,67.709404)">
+                {props.backgroundCircle === true && 
+                    <circle style={{
+                            fill : "#fff",
+                            stroke : "none",
+                            animation : (animate === true)? "svg-logo-background-circle-fade 4s infinite alternate" : undefined
+                        }}
+                        r="130"
+                        cy="46.568459"
+                        cx="98.355186" />
+                }
                 <circle style={{
                         fill : (props.fillCircle === true) ? "#fff" : "none",
                         stroke : "#000000",

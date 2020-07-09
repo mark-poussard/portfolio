@@ -20,21 +20,31 @@ const ToetcieProjectOrder : React.FC = props => {
                     en : 
                         <>
                             <p>
-                                Le module de commande en ligne permet l'envoie des commandes client par e-mail au restaurateur.
-                                A la réception de l'e-mail un bouton permet au restaurateur de confirmer la commande.
+                                Une des fonctionnalités principale et la plus attendue par le restaurateur, la commande en ligne permet aux clients de passer leur commande directement sur le site web.
                             </p>
                             <p>
-                                Ce module fonctionne entiérement sur la base du service d'e-mail et sans serveur attitré, ce qui permet une réduction significative des coûts d'hébergement.
+                                Ce module à été réalisé de sorte à minimiser l'ambiguïté que ce soit du coté client ou restaurateur. 
+                                Les montants sont affiché tout au long de la commande avec des notes explicites sur le prix de chaque élément. 
+                                Le restaurateur quand à lui réceptionne un e-mail standardisé qui lui permet de trés rapidement lire et assimiler la demande du client.
+                            </p>
+                            <p>
+                                Pour la réalisation nous avons retenu une solution basée sur l'envoie d'e-mail et sans serveur.
+                                Cette démarche permettant une réduction significative des coûts d'hébergement pour le restaurateur.
                             </p>
                         </>,
                     fr : 
                         <>
                             <p>
-                                Le module de commande en ligne permet l'envoie des commandes client par e-mail au restaurateur.
-                                A la réception de l' e-mail un bouton permet au restaurateur de confirmer la commande.
+                                Une des fonctionnalités principale et la plus attendue par le restaurateur, la commande en ligne permet aux clients de passer leur commande directement sur le site web.
                             </p>
                             <p>
-                                Ce module fonctionne entiérement sur la base du service d'e-mail et sans serveur attitré, ce qui permet une réduction significative des coûts d'hébergement.
+                                Ce module à été réalisé de sorte à minimiser l'ambiguïté que ce soit du coté client ou restaurateur. 
+                                Les montants sont affiché tout au long de la commande avec des notes explicites sur le prix de chaque élément. 
+                                Le restaurateur quand à lui réceptionne un e-mail standardisé qui lui permet de trés rapidement lire et assimiler la demande du client.
+                            </p>
+                            <p>
+                                Pour la réalisation nous avons retenu une solution basée sur l'envoie d'e-mail et sans serveur.
+                                Cette démarche permettant une réduction significative des coûts d'hébergement pour le restaurateur.
                             </p>
                         </>
                 }}

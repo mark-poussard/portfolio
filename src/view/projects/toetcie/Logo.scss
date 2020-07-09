@@ -2,6 +2,15 @@
 
 }
 
+@keyframes svg-logo-background-circle-fade {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
 @keyframes svg-logo-outer-circle-rotate {
     0%, 25% {
         stroke-dasharray: 600;

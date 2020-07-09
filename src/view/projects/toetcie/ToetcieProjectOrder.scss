@@ -17,12 +17,14 @@
         >img{
             border-radius: 5px;
             width: 65%;
+            max-width: 450px;
         }
     }
 }
 @media (max-width: 599px) {
     .toetcie-project-order{
         >.toetcie-project-order-illustration{
+            margin-top: 30px;
             width: 100%;
         }
         >.toetcie-project-order-text{

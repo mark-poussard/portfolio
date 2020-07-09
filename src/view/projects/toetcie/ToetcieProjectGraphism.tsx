@@ -21,24 +21,34 @@ const ToetcieProjectGraphism : React.FC = props => {
                     en : 
                         <>
                             <p>
-                                Un point a ne surtout pas négliger, le graphisme du site c'est la premiére impression sur le potentiel client. 
-                                Il est important de proposer une charte et un travail graphique cohérent qui permet au visiteur de se projeter dans l'univers du restaurant. 
+                                La charte et le travail graphique sont des composantes essentielle à tout site web. 
+                                Elles forment les premières impressions d'un client et se doivent de transmettre au mieux l'esprit du restaurant.
+                            </p>
+                            <p>
+                                Afin de s'assurer que le site web resterais fidèle à l'univers établie par Tô & Cie, j'ai travaillé sur la base de nombreuses photos prises sur place.
+                            </p>
+                            <p>
+                                Le logo a été redessiné afin d'en produire une version animé et de nombreux petits éléments graphique ont été dessiné sur la base des photos prises au restaurant.
                             </p>
                         </>,
                     fr : 
                         <>
                             <p>
-                                Un point a ne surtout pas négliger, le graphisme du site c'est la premiére impression sur le potentiel client. 
-                                Il est important de proposer une charte et un travail graphique cohérent qui permet au visiteur de se projeter dans l'univers du restaurant. 
+                                La charte et le travail graphique sont des composantes essentielle à tout site web. 
+                                Elles forment les premières impressions d'un client et se doivent de transmettre au mieux l'esprit du restaurant.
+                            </p>
+                            <p>
+                                Afin de s'assurer que le site web resterais fidèle à l'univers établie par Tô & Cie, j'ai travaillé sur la base de nombreuses photos prises sur place.
+                            </p>
+                            <p>
+                                Le logo a été redessiné afin d'en produire une version animé et de nombreux petits éléments graphique ont été dessiné sur la base des photos prises au restaurant.
                             </p>
                         </>
                 }}
                 </LocalDiv>
             </div>
             <div className={`toetcie-project-graphism-illustration`}>
-                <div className={`toetcie-project-graphism-illustration-circle`}>
-                    <Logo animate/>
-                </div>
+                <Logo animate backgroundCircle/>
             </div>
         </div>
     )

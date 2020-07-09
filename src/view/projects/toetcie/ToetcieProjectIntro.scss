@@ -19,7 +19,8 @@
         //scale = (perspective - distance) / perspective
         // transform: translateZ(25px) translateX(calc((-50% / 2) - 1.5%)) scale(0.5);
         >img{
-            max-width: 250px;
+            max-width: 1175px;
+            width: 60%;
             clip-path: circle(50%);
         }
     }
@@ -32,6 +33,7 @@
             margin-right: 0;
         }
         >.toetcie-project-intro-illustration{
+            margin-top: 30px;
             width: 100%;
             transform: none;
         }

@@ -12,5 +12,10 @@
 }
 @media (max-width: 599px) {
     .toetcie-project{
+        >.project-section-content{
+            >*{
+                margin-top: 40px;
+            }
+        }
     }
 }

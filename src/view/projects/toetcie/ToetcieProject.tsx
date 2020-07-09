@@ -4,7 +4,7 @@ import './ToetcieProject.scss';
 import ToetcieProjectIntro from './ToetcieProjectIntro';
 import ToetcieProjectMobile from './ToetcieProjectMobile';
 import ToetcieProjectOrder from './ToetcieProjectOrder';
-import ToetcieProjectMenu from './ToetcieProjectMenu';
+import ToetcieProjectEditable from './ToetcieProjectEditable';
 import ToetcieProjectGraphism from './ToetcieProjectGraphism';
 
 const ToetcieProject : React.FC = props => {
@@ -15,7 +15,7 @@ const ToetcieProject : React.FC = props => {
             <ToetcieProjectIntro />
             <ToetcieProjectMobile />
             <ToetcieProjectOrder />
-            <ToetcieProjectMenu />
+            <ToetcieProjectEditable />
             <ToetcieProjectGraphism />
         </ProjectSection>
     )
