@@ -1,9 +1,8 @@
 import React from 'react';
-import './ToetcieProjectGraphism.scss';
 import LocalDiv from '../../components/local/LocalDiv';
-import ImageDiv from '../../components/media/ImageDiv';
-import Logo from './Logo';
 import ProjectSubSection from '../ProjectSubSection';
+import Logo from './Logo';
+import './ToetcieProjectGraphism.scss';
 
 const ToetcieProjectGraphism : React.FC = props => {
     return (
@@ -25,14 +24,14 @@ const ToetcieProjectGraphism : React.FC = props => {
                 en : 
                     <>
                         <p>
-                            La charte et le travail graphique sont des composantes essentielles à tout site web. 
-                            Elles forment les premières impressions d'un client et se doivent de transmettre au mieux l'esprit du restaurant.
+                            The website's design and graphism are essential components to this project.
+                            They structure a clients first impressions and as such must perfectly convey the spirit and the atmosphere.
                         </p>
                         <p>
-                            Afin de s'assurer que le site web resterait fidèle à l'univers établi par Tô & Cie, j'ai travaillé sur la base de nombreuses photos prises sur place.
+                            To ensure that the website would stay as close to Tô & Cie's identity, I worked with numerous photos taken there.
                         </p>
                         <p>
-                            Le logo a été redessiné afin d'en produire une version animée et de nombreux petits éléments graphiques ont été dessinés sur la base des photos prises au restaurant.
+                            I redrew Tô & Cie's logo to animate it, and various small graphical items on the website are directly inspired by pictures I took in the restaurant.
                         </p>
                     </>,
                 fr : 

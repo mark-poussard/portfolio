@@ -25,10 +25,10 @@ const ToetcieProjectEditable : React.FC = props => {
                 en : 
                     <>
                         <p>
-                            Dans l'objectif d'offrir un maximum de flexibilité au restaurateur, le site web a été entièrement pensé pour fonctionner à partir d'informations tirées de fichiers formattés.
+                            To maximise flexibility on the chef's side, the website was designed to gather all its information from pre-formatted files.
                         </p>
                         <p>
-                            Cette approche permet au restaurateur de changer les prix de sa carte, d'ajouter des éléments à son menu et d'informer ses clients, le tout avec de très faibles compétences en informatique.
+                            Doing so, allows the chef to edit his pricing, add items to his menu, or keep clients informed. All of which can be accomplished with minimal computer skills.
                         </p>
                     </>,
                 fr : 

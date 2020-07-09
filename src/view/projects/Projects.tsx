@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from '../components/text/Header';
 import ProjectLine from './ProjectLine';
 import './Projects.scss';
@@ -6,18 +6,21 @@ import ToetcieProject from './toetcie/ToetcieProject';
 import CorrectOpticProject from './correct-optic/CorrectOpticProject';
 
 const Projects : React.FC = props => {
+    const [projectsRef, setProjectsRef] = useState<HTMLDivElement | null>(null);
     return (
-        <div className={`projets`}>
+        <div className={`projets`} ref={setProjectsRef}>
             <Header>
             {{
                 en : "Projects",
                 fr : "Projets"
             }}
             </Header>
-            <div className={`projets-list`}>
-                <ToetcieProject />
-                <CorrectOpticProject />
-            </div>
+            {projectsRef != null &&
+                <div className={`projets-list`}>
+                        <ToetcieProject projectsRef={projectsRef}/>
+                        <CorrectOpticProject />
+                </div>
+            }
         </div>
     )
 }

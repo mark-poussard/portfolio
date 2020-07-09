@@ -7,12 +7,16 @@ import ToetcieProjectOrder from './ToetcieProjectOrder';
 import ToetcieProjectEditable from './ToetcieProjectEditable';
 import ToetcieProjectGraphism from './ToetcieProjectGraphism';
 
-const ToetcieProject : React.FC = props => {
+interface IToetcieProjectProps{
+    projectsRef : HTMLDivElement;
+}
+
+const ToetcieProject : React.FC<IToetcieProjectProps> = props => {
     return (
         <ProjectSection 
             className={`toetcie-project`}
             name={`To & Cie`}>
-            <ToetcieProjectIntro />
+            <ToetcieProjectIntro projectsRef={props.projectsRef}/>
             <ToetcieProjectMobile />
             <ToetcieProjectOrder />
             <ToetcieProjectEditable />

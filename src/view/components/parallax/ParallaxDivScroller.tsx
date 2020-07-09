@@ -2,43 +2,38 @@ import React, { useState, useCallback, useRef, useLayoutEffect, useEffect } from
 import './ParallaxDivScroller.scss';
 
 interface IParallaxDivScrollerProps{
+    scrollDiv : HTMLDivElement;
     className ?: string;
 }
 
 const ParallaxDivScroller : React.FC<IParallaxDivScrollerProps> = props => {
     const className = (props.className != null)?props.className:"";
     const [stop, setStop] = useState(false);
-    const stopRef = useRef<HTMLDivElement>(null);
     const parallaxRef = useRef<HTMLDivElement>(null);
     const detect = useCallback(() => {
-        const stopTop = stopRef.current!.getBoundingClientRect().top;
-        const parallaxTop = parallaxRef.current!.getBoundingClientRect().top;
-        console.log(`stopTop : ${stopTop}`);
-        console.log(`parallaxTop : ${parallaxTop}`);
-        if(parallaxTop <= stopTop){
+        const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+        const parallaxBox = parallaxRef.current!.getBoundingClientRect();
+        if(parallaxBox.top <= (vh/2) - (parallaxBox.height/2)){
             setStop(true);
         }
-        else if(stop){
+        else{
             setStop(false);
         }
     }, []);
     useEffect(() => {
         detect();
-        addEventListener("scroll", detect);
+        props.scrollDiv.addEventListener("scroll", detect);
         addEventListener("resize", detect);
         return () => {
-            removeEventListener("scroll", detect);
+            props.scrollDiv.removeEventListener("scroll", detect);
             removeEventListener("resize", detect);
         };
-    }, []);
+    }, [props.scrollDiv]);
     return (
-        <div className={`parallax-div-scroller`}>
-            <div className={`parallax-div-scroller-detector`} ref={stopRef} />
-            <div className={`parallax-div ${className}`} ref={parallaxRef} style={{
-                transform : (stop)?"none":undefined
-            }}>
-                {props.children}
-            </div>
+        <div className={`parallax-div ${className}`} ref={parallaxRef} style={{
+            transform : (stop)?"none":undefined
+        }}>
+            {props.children}
         </div>
     )
 }

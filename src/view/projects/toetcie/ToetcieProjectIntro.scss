@@ -1,6 +1,7 @@
 .toetcie-project-intro{
     .toetcie-project-intro-illustration{
         //scale = (perspective - distance) / perspective
+        // transformX(calc(100% * 10 / 6 * 0.5 - 50% * 2 - 1.5%))
         // transform: translateZ(25px) translateX(calc((-50% / 2) - 1.5%)) scale(0.5);
         max-width: 1175px;
         width: 60%;
