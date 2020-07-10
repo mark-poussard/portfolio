@@ -16,6 +16,7 @@ const GBSmith : React.FC = props => {
                 {{
                     en : 
                         <>
+                            My work at GB & SMITH was focused
                         </>,
                     fr : 
                         <>
