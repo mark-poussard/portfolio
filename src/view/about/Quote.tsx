@@ -11,12 +11,14 @@ interface IQuoteProps{
 const Quote : React.FC<IQuoteProps> = props => {
     return (
         <div className={`quote`}>
-            <QuotationMarkOpen className={`quote-open`}/>
-            {props.children}
+            <div className={`quote-text`}>
+                <QuotationMarkOpen className={`quote-open`}/>
+                {props.children}
+                <QuotationMarkClose className={`quote-close`}/>
+            </div>
             <div className={`quote-author`}>
                 - {props.author}
             </div>
-            <QuotationMarkClose className={`quote-close`}/>
         </div>
     )
 }

@@ -18,10 +18,8 @@ const About : React.FC = props => {
             </Header>
             <AboutBar cv={cv} setCv={setCv}/>
             <StickyBottomDiv className={`about-content`}>
-                <div className={`about-absolute-catcher`}>
-                    <AboutMe display={!cv} />
-                    <AboutCv display={cv} />
-                </div>
+                <AboutMe display={!cv} />
+                <AboutCv display={cv} />
             </StickyBottomDiv>
         </div>
     )

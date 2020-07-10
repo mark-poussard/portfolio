@@ -1,7 +1,7 @@
 import React, { useEffect, useCallback, useRef } from 'react';
 
 interface IStickyBottomDivProps extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>{
-
+    deps?: React.InputIdentityList;
 }
 
 const StickyBottomDiv : React.FC<IStickyBottomDivProps> = props => {
@@ -16,6 +16,8 @@ const StickyBottomDiv : React.FC<IStickyBottomDivProps> = props => {
     }, []);
     useEffect(() => {
         sizeDiv();
+    }, props.deps);
+    useEffect(() => {
         addEventListener("resize", sizeDiv);
         return () => removeEventListener("resize", sizeDiv);
     }, []);

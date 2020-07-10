@@ -1,0 +1,15 @@
+.about-cv{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    transition: top .5s, opacity .5s;
+    overflow-x: hidden;
+    overflow-y: auto;
+    &.hidden{
+        top: 100vh;
+        opacity: 0;
+    }
+}

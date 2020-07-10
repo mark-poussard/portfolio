@@ -1,4 +1,12 @@
 .about-me{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: left .5s, right .5s;
+    overflow-x: hidden;
+    overflow-y: auto;
     >.about-me-picture{
         position: absolute;
         top: 0;
@@ -37,11 +45,18 @@
             opacity : 0;
             left: 100vw;
         }
+        >.quote{
+            margin-bottom: 20px;
+        }
     }
 }
 
 @media (max-width: 599px) {
     .about-me{
+        &.hidden{
+            left: -100vw;
+            right: 100vw;
+        }
         >.about-me-picture{
             position: relative;
             top: 0;
@@ -56,7 +71,7 @@
             position: relative;
             top: 0;
             left: 0;
-            width: 100%;
+            width: calc(100% - 40px);
         }
     }
 }

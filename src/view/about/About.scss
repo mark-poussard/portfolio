@@ -11,21 +11,18 @@
         margin-bottom: 30px;
     }
     >.about-content{
-        margin-left: calc(3% + 150px);
-        padding: 0 3%;
-        height: calc(100vh - 116px - 30px - 64px);
-        overflow-x: hidden;
-        overflow-y: auto;
-        >.about-absolute-catcher{
-            position: relative;
-        }
+        position: relative;
+        margin-left: calc(3% + 150px + 3%);
+        margin-right: 3%;
+        // height: calc(100vh - 116px - 30px - 64px);
+        overflow: hidden;
     }
 }
 
 @media (max-width: 599px) {
     .about{
         >.about-content{
-            height: calc(100vh - 77px - 42px - 30px - 110px);
+            // height: calc(100vh - 77px - 42px - 30px - 110px);
             margin : 20px;
             padding: 0;
         }
