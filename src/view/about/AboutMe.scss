@@ -6,6 +6,13 @@
 
         max-width: 1500px;
         width: 50%;
+
+        opacity: 1;
+        transition: opacity .5s, top .5s, left .5s;
+        &.hidden{
+            opacity : 0;
+            top: -100vh;
+        }
     }
     >.about-me-text{
         position: absolute;
@@ -17,9 +24,19 @@
         top: calc(50vh - 116px - 30px - 64px);
         left: 33%;
 
-        width: 65%;
+        width: calc(65% - 40px);
+        padding: 20px;
         background-color: white;
-        color: black
+        color: black;
+
+        text-align: justify;
+
+        opacity: 1;
+        transition: opacity .5s, left .5s;
+        &.hidden{
+            opacity : 0;
+            left: 100vw;
+        }
     }
 }
 
@@ -30,6 +47,10 @@
             top: 0;
             left: 0;
             width: 100%;
+            &.hidden{
+                top: 0;
+                left: -100vw;
+            }
         }
         >.about-me-text{
             position: relative;

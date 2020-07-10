@@ -15,10 +15,10 @@ const CorrectOpticProjectIntro : React.FC = props => {
                 en : 
                     <>
                         <p>
-                            Correct Optic est un magasin d'optique proposant des verres pour tous, de la haute gamme aux lunettes accessibles.
+                            Correct Optic is a local opticians store that delivers great service to all.
                         </p>
                         <p>
-                            J'ai participé à la réalisation d'un site vitrine remplaçant une version précédente datée.
+                            I worked on replacing the old website by an up to date, fashionable version that would mirror the shop's identity better.
                         </p>
                     </>,
                 fr : 

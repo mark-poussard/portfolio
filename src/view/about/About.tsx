@@ -4,6 +4,7 @@ import AboutBar from './AboutBar';
 import './About.scss';
 import AboutMe from './AboutMe';
 import AboutCv from './AboutCv';
+import StickyBottomDiv from '../components/structure/StickyBottomDiv';
 
 const About : React.FC = props => {
     const [cv, setCv] = useState(false);
@@ -16,12 +17,12 @@ const About : React.FC = props => {
             }}
             </Header>
             <AboutBar cv={cv} setCv={setCv}/>
-            <div className={`about-content`}>
+            <StickyBottomDiv className={`about-content`}>
                 <div className={`about-absolute-catcher`}>
                     <AboutMe display={!cv} />
                     <AboutCv display={cv} />
                 </div>
-            </div>
+            </StickyBottomDiv>
         </div>
     )
 }

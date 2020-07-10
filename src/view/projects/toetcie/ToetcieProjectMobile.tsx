@@ -24,10 +24,10 @@ const ToetcieProjectMobile : React.FC = props => {
                 en : 
                     <>
                         <p>
-                            The statistics showed us that 75% of users accessed the existing website via mobile.
+                            Statistics show that 75% of users access the existing website via mobile devices.
                         </p>
                         <p>
-                            With that information in mind, it was crucial for our solution to be responsive and adapted to mobile supports, while being as easy to use and navigate as on a computer and keeping all the website's features.
+                            With that information in mind, it was crucial for our solution to be responsive and adapted to mobile, while being as easy to use and navigate as on a computer and keeping all of the website's features.
                         </p>
                     </>,
                 fr : 

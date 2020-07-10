@@ -22,16 +22,16 @@ const ToetcieProjectOrder : React.FC = props => {
                 en : 
                     <>
                         <p>
-                            One of the main feature, which was also key for the client, is the online ordering. Thus customers are able to order directly through the website without having to call on the phone, which was the current solution at the time.
+                            One of our main feature, which was also key for the chef, is the online food order system. Enabling customers to order directly through the website, without having to call the restaurant.
                         </p>
                         <p>
-                            This module was made in order to reduce mistakes on the content and to clear any doubt about the prices. 
-                            Indeed, they are clearly displayed throughout the whole process.
-                            Once the order is validated by the customer, a standardised email is automatically sent to the restaurant with the order's details, such as the name of the client and the pick up time.
+                            This system was designed in order to reduce mistakes on ordered items and to clear any doubt about pricing. 
+                            Everything is clearly displayed throughout the whole process.
+                            Once the order is validated by the customer, a standardised email is automatically sent to the restaurant with details, such as the name of the client and the pick up time.
                         </p>
                         <p>
-                            For this feature, our solution is based on a serverless architecture.
-                            This choice allows for a massive saving in terms of hosting for the restaurant owner.
+                            Our system is based on a serverless architecture.
+                            This allows for savings in terms of hosting costs for the restaurant owner.
                         </p>
                     </>,
                 fr : 

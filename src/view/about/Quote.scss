@@ -1,0 +1,18 @@
+.quote{
+    position: relative;
+    text-align: center;
+    font-style: italic;
+    >.quote-author{
+        font-style: normal;
+    }
+    >.quote-open{
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    >.quote-close{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}
