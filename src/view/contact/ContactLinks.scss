@@ -1,0 +1,16 @@
+.contact-links{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 40px;
+    >.linkedin-link, >.github-link, >.email-link{
+        display: inline-block;
+        width: 33%;
+        margin-top: 0;
+        transform: perspective(100px) translateZ(0);
+        transition: transform .5s;
+        &:hover{
+            transform: perspective(100px) translateZ(10px);
+        }
+    }
+}

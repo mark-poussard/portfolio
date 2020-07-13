@@ -1,0 +1,19 @@
+.contact-map{
+    display: inline-block;
+    position: relative;
+    >.contact-map-illustration{
+        height: 40vh;
+        width: unset;
+        max-width: 100%;
+        object-fit: unset;
+    }
+    >.contact-map-location{
+        position: absolute;
+        // Marseille
+        left: 49%;
+        top: 22%;
+        transform: translateX(-50%) translateY(-50%);
+        color : var(--color-gold);
+        font-size: 5vh;
+    }
+}

@@ -1,0 +1,25 @@
+.contact-location{
+    position: relative;
+    overflow: visible;
+    display: inline-block;
+    color : var(--color-gold);
+    >.contact-location-sizer{
+        opacity: 0;
+    }
+    >.contact-location-values{
+        position: absolute;
+        text-align: center;
+        top: 0;
+        left: 0;
+        animation: contact-location-values-roulette 3s forwards;
+    }
+}
+
+@keyframes contact-location-values-roulette {
+    0% {
+        top: 0;
+    }
+    100% {
+        bottom: 0;
+    }
+}

@@ -16,9 +16,8 @@ const ProjectsBubble : React.FC = props => {
             top={(mobile)?(vh*0.5):(vh * 0.6 - bubbleRadius)} 
             left={(mobile)?(vw*0.75-bubbleRadius):((vw*0.9) - (2*bubbleRadius))}
             bubbleContent={<ProjectsBubbleContent/>}
-            bubbleRadius={bubbleRadius}>
-                <Projects />
-        </Bubble>
+            bubbleRadius={bubbleRadius}
+            Page={Projects} />
     )
 }
 export default ProjectsBubble;

@@ -5,8 +5,9 @@ import './About.scss';
 import AboutMe from './AboutMe';
 import AboutCv from './AboutCv';
 import StickyBottomDiv from '../components/structure/StickyBottomDiv';
+import { IBubblePageProps } from '../components/bubble/Bubble';
 
-const About : React.FC = props => {
+const About : React.FC<IBubblePageProps> = props => {
     const [cv, setCv] = useState(false);
     return (
         <div className={`about`}>

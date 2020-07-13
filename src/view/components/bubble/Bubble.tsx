@@ -3,12 +3,17 @@ import './Bubble.scss';
 import { useViewportHeight, useViewportWidth } from '../../hooks/UseViewport';
 import BubbleReturn from './BubbleReturn';
 
+export interface IBubblePageProps{
+    display : boolean;
+}
+
 interface IBubbleProps{
     backgroundColor : string;
     top : number;
     left : number;
     bubbleContent : React.ReactNode;
     bubbleRadius : number;
+    Page : React.FC<IBubblePageProps>;
 }
 
 export const DEFAULT_BUBBLE_RADIUS = 100;
@@ -75,7 +80,7 @@ const Bubble : React.FC<IBubbleProps> = props => {
                 <div className={`expanded-content-page`} style={{
                     top: (displayPage)?"0px":"10px"
                 }}>
-                    {props.children}
+                    <props.Page display={displayPage} />
                 </div>
             </div>
         </div>
