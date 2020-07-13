@@ -4,7 +4,7 @@ import './CvEntry.scss';
 interface ICvEntryProps{
     className ?: string;
     date : string;
-    location : string;
+    location : React.ReactNode;
     illustration : React.ReactNode;
     title : string;
 }
