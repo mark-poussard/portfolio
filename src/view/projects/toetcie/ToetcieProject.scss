@@ -2,20 +2,5 @@
     transform-style: preserve-3d;
     >.project-section-content{
         transform-style: preserve-3d;
-        >*{
-            margin-top: 100px;
-            &:first-child{
-                margin-top: 0;
-            }
-        }
-    }
-}
-@media (max-width: 599px) {
-    .toetcie-project{
-        >.project-section-content{
-            >*{
-                margin-top: 40px;
-            }
-        }
     }
 }
