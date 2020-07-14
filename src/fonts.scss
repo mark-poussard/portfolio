@@ -2,7 +2,9 @@
     font-family: Kiona;
     font-display: swap;
     src: url('/font/Kiona-Regular.woff') format('woff'),
-         url('/font/Kiona-Regular.ttf') format('truetype');
+         url('/font/Kiona-Regular.ttf') format('truetype'),
+         url('http://mark-poussard.github.io/portfolio/font/Kiona-Regular.woff') format('woff'),
+         url('http://mark-poussard.github.io/portfolio/font/Kiona-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -10,14 +12,18 @@
     font-display: swap;
     font-style: italic;
     src: url('/font/Kiona-Itallic.woff') format('woff'),
-         url('/font/Kiona-Itallic.ttf') format('truetype');
+         url('/font/Kiona-Itallic.ttf') format('truetype'),
+         url('http://mark-poussard.github.io/portfolio/font/Kiona-Itallic.woff') format('woff'),
+         url('http://mark-poussard.github.io/portfolio/font/Kiona-Itallic.ttf') format('truetype');
 }
 
 @font-face {
     font-family: Timeless;
     font-display: swap;
     src: url('/font/Timeless.woff') format('woff'),
-         url('/font/Timeless.ttf') format('truetype');
+         url('/font/Timeless.ttf') format('truetype'),
+         url('http://mark-poussard.github.io/portfolio/font/Timeless.woff') format('woff'),
+         url('http://mark-poussard.github.io/portfolio/font/Timeless.ttf') format('truetype');
 }
 
 @font-face {
@@ -25,12 +31,16 @@
     font-display: swap;
     font-weight: bold;
     src: url('/font/Timeless-Bold.woff') format('woff'),
-         url('/font/Timeless-Bold.ttf') format('truetype');
+         url('/font/Timeless-Bold.ttf') format('truetype'),
+         url('http://mark-poussard.github.io/portfolio/font/Timeless-Bold.woff') format('woff'),
+         url('http://mark-poussard.github.io/portfolio/font/Timeless-Bold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: Broadway;
     font-display: swap;
     src: url('/font/Broadway_Regular.woff') format('woff'),
-         url('/font/Broadway_Regular.ttf') format('truetype');
+         url('/font/Broadway_Regular.ttf') format('truetype'),
+         url('http://mark-poussard.github.io/portfolio/font/Broadway_Regular.woff') format('woff'),
+         url('http://mark-poussard.github.io/portfolio/font/Broadway_Regular.ttf') format('truetype');
   }
