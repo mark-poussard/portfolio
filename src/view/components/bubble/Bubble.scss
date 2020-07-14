@@ -5,7 +5,7 @@
     right: 0;
     bottom: 0;
 
-    transition: clip-path 1s;
+    transition: clip-path 1s, -webkit-clip-path 1s;
     >.bubble{
         position: absolute;
         cursor: pointer;

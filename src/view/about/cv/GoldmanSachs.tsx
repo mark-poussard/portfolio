@@ -2,6 +2,7 @@ import React from 'react';
 import CvEntry from './CvEntry';
 import LocalDiv from '../../components/local/LocalDiv';
 import './GoldmanSachs.scss';
+import Keyword from '../../components/text/Keyword';
 
 const GoldmanSachs : React.FC = props => {
     return (
@@ -16,7 +17,9 @@ const GoldmanSachs : React.FC = props => {
                 </LocalDiv>
                 }
                 illustration={
-                    <img className={`goldman-sachs-illustration`} src={`media/gs.svg`}/>
+                    <a href={`https://www.goldmansachs.com/`} target={`_blank`}>
+                        <img className={`goldman-sachs-illustration`} src={`media/gs.svg`}/>
+                    </a>
                 }
                 title={`Goldman Sachs`}>
                 <LocalDiv>
@@ -24,23 +27,23 @@ const GoldmanSachs : React.FC = props => {
                     en : 
                         <>
                             <p>
-                                Associate at Goldman Sachs in the Technology division. 
-                                I worked with my team on an internal web app handling Corporate Actions detection and resolution for the whole of the company's and its client's positions.
+                                As an associate at Goldman Sachs' technology division, 
+                                I worked on an internal web app handling <Keyword>Corporate Actions</Keyword> detection and resolution for the whole of the company's and its client's positions.
                             </p>
                             <p>
-                                The stack was designed with an Angular front end and a Java backend, with some Slang (proprietary Goldman Sachs language) scripts for legacy systems interoperability.
-                                The app was designed with a focus on micro-services and scalability to ensure a timely resolution of Corporate Actions.
+                                The stack was designed with an <Keyword>Angular</Keyword> front end and a <Keyword>Java</Keyword> backend, with some <Keyword>Slang</Keyword> (proprietary Goldman Sachs language) scripts for legacy systems interoperability.
+                                The app was designed with a focus on <Keyword>micro-services</Keyword> and <Keyword>scalability</Keyword> to ensure a timely resolution of Corporate Actions.
                             </p>
                         </>,
                     fr : 
                         <>
                             <p>
-                                Grade d'associé au sein de la division technologique de Goldman Sachs.
-                                J'ai travaillé sur une application web interne pour la détection et la résolution des opérations sur titre sur l'ensemble des positions de la compagnie et de ses clients.
+                                En tant qu'associé au sein de la division technologique de Goldman Sachs,
+                                j'ai travaillé sur une application web interne pour la détection et la résolution des <Keyword>opérations sur titre</Keyword> sur l'ensemble des positions de la compagnie et de ses clients.
                             </p>
                             <p>
-                                La pile technologique est constituée d'angular sur le frontal et de java en arrière, avec quelques scripts slang (language propriétaire de Goldman Sachs) pour la communication avec les systèmes hérités.
-                                L'application a été conçue avec un accent sur les microservices et la scalabilité des systèmes pour s'assurer d'une résolution ponctuelle des opérations sur titres.
+                                La pile technologique est constituée d'<Keyword>angular</Keyword> sur le frontal et de <Keyword>java</Keyword> en arrière, avec quelques scripts <Keyword>slang</Keyword> (language propriétaire de Goldman Sachs) pour la communication avec les systèmes hérités.
+                                L'application a été conçue avec un accent sur les <Keyword>microservices</Keyword> et la <Keyword>scalabilité</Keyword> des systèmes pour s'assurer d'une résolution ponctuelle des opérations sur titres.
                             </p>
                         </>
                 }}

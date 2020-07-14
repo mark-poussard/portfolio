@@ -55,7 +55,8 @@ const Bubble : React.FC<IBubbleProps> = props => {
         <div className={`bubble-wrapper`} style={{
             backgroundColor : props.backgroundColor,
             clipPath : `circle(${circleRadius}px at ${circleLeft}px ${circleTop}px )`,
-            transition: (fillScreen)?`clip-path 1s`:`clip-path 0.5s`,
+            WebkitClipPath : `circle(${circleRadius}px at ${circleLeft}px ${circleTop}px )`,
+            transition: (fillScreen)?`clip-path 1s, -webkit-clip-path 1s`:`clip-path 0.5s, -webkit-clip-path 0.5s`,
             zIndex: (foreground)?1:undefined,
         }}
         onMouseOver={() => setHover(true)}

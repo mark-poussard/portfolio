@@ -3,6 +3,7 @@ import LocalDiv from '../../components/local/LocalDiv';
 import ProjectSubSection from '../ProjectSubSection';
 import './ToetcieProjectIntro.scss';
 import ParallaxDivScroller from '../../components/parallax/ParallaxDivScroller';
+import Keyword from '../../components/text/Keyword';
 
 interface IToetcieProjectIntroProps{
     projectsRef : HTMLDivElement;
@@ -25,7 +26,7 @@ const ToetcieProjectIntro : React.FC<IToetcieProjectIntroProps> = props => {
                     <>
                         <p>
                             Tô & Cie is a Vietnamese canteen serving authentic homemade food.
-                            I helped in the restaurants digitization by imagining and creating a responsive, flexible website with an online food order feature.
+                            I helped in the restaurant's digitization by imagining and creating a <Keyword>responsive</Keyword>, <Keyword>flexible</Keyword> website with an <Keyword>online food order</Keyword> feature.
                         </p>
                         <p>
                             Concerned with quality, we arranged an on-site visit to capture the atmosphere of the canteen.
@@ -36,7 +37,7 @@ const ToetcieProjectIntro : React.FC<IToetcieProjectIntroProps> = props => {
                     <>
                         <p>
                             Tô & Cie est une cantine Vietnamienne proposant une cuisine authentique et familiale.
-                            Dans le cadre de la digitalisation du restaurant, j'ai participé à la conception et à la réalisation d'un site web réactif, flexible et permettant au client de commander en ligne.
+                            Dans le cadre de la digitalisation du restaurant, j'ai participé à la conception et à la réalisation d'un site web <Keyword>réactif</Keyword>, <Keyword>flexible</Keyword> et permettant au client de <Keyword>commander en ligne</Keyword>.
                         </p>
                         <p>
                             Afin de m'assurer que le site représenterait au mieux l'esprit et l'atmosphère de la cantine, je me suis rendu sur place pour une discussion avec le restaurateur.

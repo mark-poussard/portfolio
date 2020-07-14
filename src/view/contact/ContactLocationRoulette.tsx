@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import './ContactLocation.scss';
+import './ContactLocationRoulette.scss';
 
-interface IContactLocationProps{
+interface IContactLocationRouletteProps{
     display : boolean;
 }
 
-const ContactLocation : React.FC<IContactLocationProps> = props => {
+const ContactLocationRoulette : React.FC<IContactLocationRouletteProps> = props => {
     const location = "Marseille";
-    const locationRoulette = ["Paris", "Bangkok", "London", "Tokyo", "Brisbane", "Hanoi"]
+    const locationRoulette = ["Paris", "Bangkok", "London", "Windhoek", "Da Nang", "Tokyo", "Brisbane", "Bordeaux", "Berlin", "Hanoi"]
     const [display, setDisplay] = useState(props.display);
     useEffect(() => {
         if(props.display){
@@ -31,4 +31,4 @@ const ContactLocation : React.FC<IContactLocationProps> = props => {
         </div>
     )
 }
-export default ContactLocation;
+export default ContactLocationRoulette;

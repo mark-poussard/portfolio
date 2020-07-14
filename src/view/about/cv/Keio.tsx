@@ -2,6 +2,7 @@ import React from 'react';
 import CvEntry from './CvEntry';
 import LocalDiv from '../../components/local/LocalDiv';
 import './Keio.scss';
+import Keyword from '../../components/text/Keyword';
 
 const Keio : React.FC = props => {
     return (
@@ -10,7 +11,9 @@ const Keio : React.FC = props => {
                 date={`2015`}
                 location={`Tokyo`}
                 illustration={
-                    <img className={`keio-illustration`} src={`media/keio.png`}/>
+                    <a href={`https://im-lab.net/`} target={`_blank`}>
+                        <img className={`keio-illustration`} src={`media/keio.png`}/>
+                    </a>
                 }
                 title={`Keio university`}>
             <LocalDiv>
@@ -25,10 +28,10 @@ const Keio : React.FC = props => {
                             The idea was to provide smooth transitioning from one 360° picture to the next with these intermediate steps.
                         </p>
                         <p>
-                            One of the suggested applications would have been for google street view navigation.
+                            One of the suggested applications would have been for <Keyword>Google Maps</Keyword>' street view navigation.
                         </p>
                         <p>
-                            This project was implemented using C++ and the computer vision library OpenCV.
+                            This project was implemented using <Keyword>C++</Keyword> and the computer vision library <Keyword>OpenCV</Keyword>.
                         </p>
                     </>,
                 fr :
@@ -41,10 +44,10 @@ const Keio : React.FC = props => {
                             L'idée étant de pouvoir offrir une transition douce d'une image à l'autre à l'aide de ces images intermédiaires.
                         </p>
                         <p>
-                            L'une des applications possibles du projet aurait pu concerner la navigation Street View de Google Maps, où l'on se déplace dans un quartier à l'aide de prise de vues à 360°.
+                            L'une des applications possibles du projet aurait pu concerner la navigation Street View de <Keyword>Google Maps</Keyword>, où l'on se déplace dans un quartier à l'aide de prise de vues à 360°.
                         </p>
                         <p>
-                            Le projet a été implémenté en C++ à l'aide de la bibliothèque de traitement d'images OpenCV.
+                            Le projet a été implémenté en <Keyword>C++</Keyword> à l'aide de la bibliothèque de traitement d'images <Keyword>OpenCV</Keyword>.
                         </p>
                     </>
             }}

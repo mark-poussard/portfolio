@@ -27,14 +27,14 @@ const AboutMe : React.FC<IAboutMeProps> = props => {
                         <p>
                             Hi, I'm Mark, a French full stack developer. 
                             I'm currently working as a remote freelancer, designing and creating beautiful websites for businesses and restaurants as I travel.
-                            I've lived in London, studied in Tokyo and honed my web skills in Paris.
-                            I'm an avid reader of fantasy and science-fiction, love running, do rock climbing, Brazillian jiu-jitsu and ping-pong.
+                            I've studied in Tokyo, lived in London, and honed my web skills in Paris.
+                            I'm an avid reader of fantasy and science-fiction novels, love running, do rock climbing, Brazillian jiu-jitsu and ping-pong.
                         </p>,
                     fr : 
                         <p>
                             Bonjour, je suis Mark un ingénieur en informatique français.
-                            Je travaille actuellement à concevoir et créer de magnifique site web pour des entreprises et restaurant, en tant qu'auto-entrepreneur à distance.
-                            J'ai vécu à Londres, étudié à Tokyo et perfectionné mes compétences web à Paris.
+                            En tant qu'auto-entrepreneur, je conçois et crée des sites web dynamiques et réactifs pour des entreprises et restaurants.
+                            J'ai étudié à Tokyo, vécu à Londres, et perfectionné mes compétences web à Paris.
                             Je suis avide de littérature fantastique et de science-fiction, j'adore la course à pied, je pratique l'escalade, le jiu-jitsu brésilien et le ping-pong.
                         </p>
                 }}

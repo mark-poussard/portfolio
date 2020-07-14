@@ -1,6 +1,5 @@
 import React from 'react';
-import LocalDiv from '../components/local/LocalDiv';
-import ContactLocation from './ContactLocation';
+import ContactLocationRoulette from './ContactLocationRoulette';
 import LocalSpan from '../components/local/LocalSpan';
 
 interface IContactIAmProps{
@@ -16,7 +15,7 @@ const ContactIAm : React.FC<IContactIAmProps> = props => {
                 fr : <>En ce moment, je suis à </>
             }}
             </LocalSpan>
-            <ContactLocation display={props.display} />
+            <ContactLocationRoulette display={props.display} />
         </p>
     )
 }
