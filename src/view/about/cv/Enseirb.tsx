@@ -17,10 +17,10 @@ const Enseirb : React.FC = props => {
                 en : 
                     <>
                         <p>
-                            I graduated in 2016 from a master's degree in Computer Science at ENSEIRB-MATMECA engineering school in Bordeaux.
+                            I graduated in 2016 with a master's degree in Computer Science from ENSEIRB-MATMECA engineering school in Bordeaux.
                         </p>
                         <p>
-                            During my last year at school I specialized in high performance computing and implemented various projects related to my specialty. 
+                            During my last year at school, I specialized in high performance computing and implemented various projects related to my specialty. 
                             From GPU programming to matrix compression, my course work brought solid hand-on experience of the field.
                         </p>
                         <p>
@@ -31,14 +31,14 @@ const Enseirb : React.FC = props => {
                 fr :
                     <>
                         <p>
-                            J'ai été diplomé en 2016 d'un diplôme d'ingénieur en informatique de l'école d'ingénieur ENSEIRB-MATMECA à Bordeaux.
+                            J'ai été diplomé en 2016 d'un diplôme d'ingénieur en informatique de l'école d'ingénieurs ENSEIRB-MATMECA à Bordeaux.
                         </p>
                         <p>
-                            Ma dernière année d'étude s'est concentré sur ma spécialisation en calculs hautes performances.
-                            J'ai notament implémenté une multitude de projets, de la programmation de carte graphique à la compression matricielle.
+                            Ma dernière année d'études s'est concentré sur ma spécialisation en calculs hautes performances.
+                            J'ai notamment implémenté une multitude de projets, de la programmation de carte graphique à la compression matricielle.
                         </p>
                         <p>
-                            J'ai également pu étudier durant mes premiéres année à l'école les bases de l'ingénieurie informatique, de la programmation de base de données à la programmation logicielle et embarqué.
+                            J'ai également pu étudier durant mes premiéres années à l'école les bases de l'ingénierie informatique, de la programmation de base de données à la programmation logicielle et embarquée.
                             Une grande partie de ces études ont eu une portée théorique et m'ont instruit sur divers sujets, l'algorithmique, la cryptographie, l'architecture logicielle et matérielle, et même un peu d'informatique quantique.
                         </p>
                     </>

@@ -3,13 +3,14 @@
         margin: 0;
         >.cv-entry-date, >.cv-entry-location{
             display: inline-block;
-            width: 50%;
         }
         >.cv-entry-date{
             text-align: left;
+            width: 40%;
         }
         >.cv-entry-location{
             text-align: right;
+            width: 60%;
         }
     }
     >.cv-entry-content{
@@ -40,8 +41,15 @@
 
 @media (max-width: 599px) {
     .cv-entry{
-        >.cv-entry-date{
-    
+        >.cv-entry-header{
+            >.cv-entry-date{
+                text-align: center;
+                width: 100%;
+            }
+            >.cv-entry-location{
+                text-align: center;
+                width: 100%;
+            }
         }
         >.cv-entry-content{
             >.cv-entry-illustration{

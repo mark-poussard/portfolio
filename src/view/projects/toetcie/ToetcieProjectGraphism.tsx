@@ -24,14 +24,14 @@ const ToetcieProjectGraphism : React.FC = props => {
                 en : 
                     <>
                         <p>
-                            The website's design and graphism are essential components to this project.
-                            They structure a clients first impressions and as such must perfectly convey the spirit and atmosphere of the restaurant.
+                            The website design and graphism are essential components to this project.
+                            They structure a clients first impressions, and as such must perfectly convey the spirit and atmosphere of the restaurant.
                         </p>
                         <p>
                             To ensure that the website would stay as close to Tô & Cie's identity, I worked with numerous photos taken there.
                         </p>
                         <p>
-                            I redrew Tô & Cie's logo to animate it, and various small graphical items on the website are directly inspired by pictures I took in the restaurant.
+                            I redrew Tô & Cie's logo to animate it, and various small graphical items on the website are directly inspired by pictures I took of the restaurant.
                         </p>
                     </>,
                 fr : 

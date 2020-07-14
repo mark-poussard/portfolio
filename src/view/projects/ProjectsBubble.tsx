@@ -12,9 +12,9 @@ const ProjectsBubble : React.FC = props => {
     const minDim = (vw > vh*0.5)?vh*0.5:vw;
     const bubbleRadius = (mobile)?(minDim*0.25):DEFAULT_BUBBLE_RADIUS;
     return (
-        <Bubble backgroundColor="var(--color-indigo)" 
-            top={(mobile)?(vh*0.5):(vh * 0.6 - bubbleRadius)} 
-            left={(mobile)?(vw*0.75-bubbleRadius):((vw*0.9) - (2*bubbleRadius))}
+        <Bubble backgroundColor="var(--color-slate)" 
+            top={(mobile)?(vh*0.5+(bubbleRadius*2)):(vh * 0.7 - bubbleRadius)} 
+            left={(mobile)?(vw*0.5 - bubbleRadius):(vw*0.5 - bubbleRadius)}
             bubbleContent={<ProjectsBubbleContent/>}
             bubbleRadius={bubbleRadius}
             Page={Projects} />

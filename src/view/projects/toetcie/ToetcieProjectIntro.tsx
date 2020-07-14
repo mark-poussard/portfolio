@@ -28,7 +28,7 @@ const ToetcieProjectIntro : React.FC<IToetcieProjectIntroProps> = props => {
                             I helped in the restaurants digitization by imagining and creating a responsive, flexible website with an online food order feature.
                         </p>
                         <p>
-                            Concerned by quality, we arranged an on-site visit to capture the atmosphere of the canteen.
+                            Concerned with quality, we arranged an on-site visit to capture the atmosphere of the canteen.
                             Through our exchanges both in-person and online, we managed to distill the spirit, the DNA of what makes Tô & cie and iron out what features the website would have to deliver.
                         </p>
                     </>,
@@ -40,7 +40,7 @@ const ToetcieProjectIntro : React.FC<IToetcieProjectIntroProps> = props => {
                         </p>
                         <p>
                             Afin de m'assurer que le site représenterait au mieux l'esprit et l'atmosphère de la cantine, je me suis rendu sur place pour une discussion avec le restaurateur.
-                            Au fil de cette discussion et au travers des divers échanges, nous avons pu dégager l'essentiel, l'ADN de ce qui fait Tô & cie ainsi que les besoins principaux auxquels le site se devrait de répondre.
+                            Au fil de cette discussion et au travers des divers échanges, nous avons pu dégager l'essentiel, l'ADN de ce qui fait Tô & cie ainsi que les besoins principaux auxquels le site devrait répondre.
                         </p>
                     </>
             }}

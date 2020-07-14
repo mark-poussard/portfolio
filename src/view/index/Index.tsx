@@ -21,8 +21,8 @@ const Index : React.FC = props => {
             }}
             </Subtitle>
             <AboutBubble />
-            <ContactBubble />
             <ProjectsBubble />
+            <ContactBubble />
         </div>
     )
 }

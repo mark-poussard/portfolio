@@ -27,7 +27,7 @@ const GBSmith : React.FC = props => {
                                 As a GB & SMITH research & development software engineer, I worked closely with a global team to define and create new web applications for the company's clients.
                             </p>
                             <p>
-                                Within an Agile framework we worked on a 2 week long sprint basis to deliver iterations on the new software we built.
+                                Within an Agile framework we worked on a 2 week long sprint basis to deliver iterations of the new software we built.
                             </p>
                             <p>
                                 The stacks and technologies I worked with were very diverse as they span several products, but most noticeably I coded in Javascript, React, Java and C#.
@@ -36,10 +36,10 @@ const GBSmith : React.FC = props => {
                     fr : 
                         <>
                             <p>
-                                En tant qu'ingénieur recherche et dévelopement à GB & SMITH, j'ai travaillé au sein d'une équipe international afin d'imaginer et de créer de nouvelles applications web pour la clientèle de l'entreprise.
+                                En tant qu'ingénieur recherche et développement à GB & SMITH, j'ai travaillé au sein d'une équipe internationale afin d'imaginer et de créer de nouvelles applications web pour la clientèle de l'entreprise.
                             </p>
                             <p>
-                                Je délivrai les itérations de nouveaux logiciels dans une structure de travail agile articulé autour de sprint de 2 semaines.
+                                Je délivrai les itérations de nouveaux logiciels dans une structure de travail agile articulé autour de sprints de 2 semaines.
                             </p>
                             <p>
                                 J'ai pu toucher à de nombreuses technologies à travers mon travail sur les différents produits de l'entreprise, les plus importantes étant les languages Javascript, React, Java et C#.

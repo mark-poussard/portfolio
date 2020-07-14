@@ -24,11 +24,11 @@ const GoldmanSachs : React.FC = props => {
                     en : 
                         <>
                             <p>
-                                Associate at Goldman Sachs in the Technology divison. 
+                                Associate at Goldman Sachs in the Technology division. 
                                 I worked with my team on an internal web app handling Corporate Actions detection and resolution for the whole of the company's and its client's positions.
                             </p>
                             <p>
-                                The stack was designed with an angular frontend and a java backend, with some slang (proprietary Goldman Sachs language) scripts for legacy systems interoperability.
+                                The stack was designed with an Angular front end and a Java backend, with some Slang (proprietary Goldman Sachs language) scripts for legacy systems interoperability.
                                 The app was designed with a focus on micro-services and scalability to ensure a timely resolution of Corporate Actions.
                             </p>
                         </>,
@@ -36,11 +36,11 @@ const GoldmanSachs : React.FC = props => {
                         <>
                             <p>
                                 Grade d'associé au sein de la division technologique de Goldman Sachs.
-                                J'ai travaillé sur une application web interne pour la détéction et la résolution des opérations sur titre sur l'ensemble des positions de la companie et de ses clients.
+                                J'ai travaillé sur une application web interne pour la détection et la résolution des opérations sur titre sur l'ensemble des positions de la compagnie et de ses clients.
                             </p>
                             <p>
-                                La pile technologique est constituée d'angular sur le frontal et de java en arrière, avec quelques scripts slang (language propriétaire de Goldman Sachs) pour la communications avec les systèmes hérités.
-                                L'application a été conçue avec un accent sur les microservices et la scalabilitée des systémes pour s'assurer d'une résolution ponctuelle des opérations sur titres.
+                                La pile technologique est constituée d'angular sur le frontal et de java en arrière, avec quelques scripts slang (language propriétaire de Goldman Sachs) pour la communication avec les systèmes hérités.
+                                L'application a été conçue avec un accent sur les microservices et la scalabilité des systèmes pour s'assurer d'une résolution ponctuelle des opérations sur titres.
                             </p>
                         </>
                 }}

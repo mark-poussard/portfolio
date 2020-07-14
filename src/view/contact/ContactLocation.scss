@@ -1,7 +1,8 @@
 .contact-location{
     position: relative;
-    overflow: visible;
+    overflow: hidden;
     display: inline-block;
+    vertical-align: bottom;
     color : var(--color-gold);
     >.contact-location-sizer{
         opacity: 0;
@@ -9,17 +10,18 @@
     >.contact-location-values{
         position: absolute;
         text-align: center;
-        top: 0;
+        bottom: 0;
         left: 0;
+        transform: translateY(100%);
         animation: contact-location-values-roulette 3s forwards;
     }
 }
 
 @keyframes contact-location-values-roulette {
     0% {
-        top: 0;
+        transform: translateY(100%);
     }
     100% {
-        bottom: 0;
+        transform: translateY(0%);
     }
 }
