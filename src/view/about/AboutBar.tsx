@@ -14,9 +14,11 @@ const AboutBar : React.FC<IAboutBarProps> = props => {
     return (
         <div className={`about-bar`}>
             <CvToggleButton cv={props.cv} setCv={props.setCv}/>
-            <LinkedinLink />
-            <GithubLink />
-            <EmailLink />
+            <div className={`about-bar-links`}>
+                <LinkedinLink />
+                <GithubLink />
+                <EmailLink />
+            </div>
         </div>
     )
 }

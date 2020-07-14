@@ -6,17 +6,19 @@
     >.cv-toggle-button{
         display: block;
     }
-    >.linkedin-link, >.github-link, >.email-link{
-        display: block;
-        font-size: 40px;
-        transform: perspective(100px) translateZ(0);
-        transition: transform .5s;
-        &:hover{
-            transform: perspective(100px) translateZ(10px);
+    >.about-bar-links{
+        >.linkedin-link, >.github-link, >.email-link{
+            display: block;
+            font-size: 40px;
+            transform: perspective(100px) translateZ(0);
+            transition: transform .5s;
+            &:hover{
+                transform: perspective(100px) translateZ(10px);
+            }
         }
-    }
-    >.github-link, >.email-link{
-        margin-top: 5px;
+        >.github-link, >.email-link{
+            margin-top: 5px;
+        }
     }
 }
 
@@ -28,11 +30,17 @@
         >.cv-toggle-button{
             margin-left: auto;
             margin-right: auto;
+            margin-bottom: 5px;
         }
-        >.linkedin-link, >.github-link, >.email-link{
-            display: inline-block;
+        >.about-bar-links{
             width: 33%;
-            margin-top: 0;
+            margin: auto;
+            >.linkedin-link, >.github-link, >.email-link{
+                display: inline-block;
+                width: 33%;
+                margin-top: 0;
+                font-size: 20px;
+            }
         }
     }
 }
