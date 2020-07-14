@@ -11,7 +11,6 @@ const AboutMe : React.FC<IAboutMeProps> = props => {
     const hiddenClassName = (!props.display)?"hidden":"";
     return (
         <div className={`about-me ${hiddenClassName}`}>
-            <img className={`about-me-picture ${hiddenClassName}`} src={`media/moi.jpeg`}/>
             <div className={`about-me-text ${hiddenClassName}`}>
                 <Quote author={`Antoine de Saint-Exupéry`}>
                     <LocalDiv>
@@ -40,6 +39,7 @@ const AboutMe : React.FC<IAboutMeProps> = props => {
                 }}
                 </LocalDiv>
             </div>
+            <img className={`about-me-picture ${hiddenClassName}`} src={`media/moi.jpeg`}/>
         </div>
     )
 }

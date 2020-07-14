@@ -13,14 +13,14 @@ const CvEntry : React.FC<ICvEntryProps> = props => {
     const className = (props.className != null)?props.className:"";
     return (
         <div className={`cv-entry ${className}`}>
-            <h2 className={`cv-entry-header`}>
+            <h3 className={`cv-entry-header`}>
                 <div className={`cv-entry-date`}>
                     {props.date}
                 </div>
                 <div className={`cv-entry-location`}>
                     {props.location}
                 </div>
-            </h2>
+            </h3>
             <div className={`cv-entry-content`}>
                 <div className={`cv-entry-illustration`}>
                     {props.illustration}
