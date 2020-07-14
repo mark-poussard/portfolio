@@ -22,7 +22,7 @@ const ProjectsIntro : React.FC = props => {
                                 Vous trouverez ci-dessous les projets que j'ai effectué en tant qu'auto-entrepreneur.
                             </p>
                             <p>
-                                Aucun des travaux que j'ai pu effectué en tant qu'employé ne sont détaillés ici.
+                                Les travaux auxquels j'ai contribué en tant qu'employé ne sont pas détaillés ici.
                             </p>
                         </>
                 }}

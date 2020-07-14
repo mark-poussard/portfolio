@@ -77,7 +77,7 @@ const Bubble : React.FC<IBubbleProps> = props => {
                 opacity: (displayPage)?1:0,
                 visibility: (fillScreen)?"visible":"hidden"
             }}>
-                <BubbleReturn onClick={onBack} />
+                <BubbleReturn onClick={onBack} backgroundColor={props.backgroundColor} />
                 <div className={`expanded-content-page`} style={{
                     top: (displayPage)?"0px":"10px"
                 }}>

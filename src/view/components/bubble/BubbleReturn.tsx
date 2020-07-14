@@ -4,11 +4,12 @@ import './BubbleReturn.scss';
 
 interface IBubbleReturnProps{
     onClick : () => void;
+    backgroundColor ?: string;
 }
 
 const BubbleReturn : React.FC<IBubbleReturnProps> = props => {
     return (
-        <Return className={`bubble-return`} onClick={props.onClick}/>
+        <Return className={`bubble-return`} backgroundColor={props.backgroundColor} onClick={props.onClick}/>
     )
 }
 export default BubbleReturn;

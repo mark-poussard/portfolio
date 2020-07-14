@@ -39,7 +39,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="22.4"
      inkscape:cx="2.4587287"
-     inkscape:cy="7.1610736"
+     inkscape:cy="8.9467879"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -61,7 +61,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -72,30 +72,32 @@
      transform="translate(1.4995192,-279.50048)"
      style="filter:url(#filter868)">
     <circle
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.05312685;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.78431373;paint-order:markers fill stroke"
+       style="opacity:1;fill:#353535;fill-opacity:1;stroke:none;stroke-width:0.05312685;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path858"
        cx="6.4960713"
        cy="287.50491"
        r="7.969027" />
     <g
        id="g856"
-       transform="matrix(0.70353898,0,0,0.70353898,0.91065047,84.171203)">
+       transform="matrix(0.70353898,0,0,0.70353898,0.91065047,84.171203)"
+       style="fill:#ffffff;fill-opacity:1">
       <path
          sodipodi:nodetypes="ccccccccccc"
          inkscape:connector-curvature="0"
          id="path819"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.4299202px;line-height:1.25;font-family:Kiona;-inkscape-font-specification:Kiona;stroke-width:1.53582692"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.4299202px;line-height:1.25;font-family:Kiona;-inkscape-font-specification:Kiona;stroke-width:1.53582692;fill:#ffffff;fill-opacity:1"
          d="m 14.119326,295.08682 v -12.12689 l -6.137163,8.77265 -6.2108831,-8.77352 v 12.12776 l 0.8293464,7.4e-4 v -9.49215 l 5.3815367,7.59313 5.307817,-7.5747 v 9.47298 z" />
       <g
          transform="matrix(1.5301682,0,0,1.5301682,9.336907,-146.82831)"
          id="text829"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Kiona;-inkscape-font-specification:Kiona;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Kiona;-inkscape-font-specification:Kiona;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
          aria-label="P">
         <path
            sodipodi:nodetypes="ccsccsccsccccsccsccscc"
            inkscape:connector-curvature="0"
            id="path831"
-           d="m -2.2072065,288.80215 v -3.52862 h 1.1592435 c 0.45599995,0 0.87599996,-0.1 1.25999999,-0.3 0.392,-0.2 0.7,-0.468 0.92400001,-0.804 0.232,-0.344 0.348,-0.712 0.348,-1.104 0,-0.4 -0.116,-0.768 -0.348,-1.104 -0.22400001,-0.336 -0.53200001,-0.604 -0.92400001,-0.804 -0.38400003,-0.2 -0.80400004,-0.3 -1.25999999,-0.3 h -1.7112435 l 0.012,7.94462 z m -0.012,-7.39262 h 1.1712435 c 0.35999995,0 0.69199996,0.076 0.99599999,0.228 0.304,0.144 0.544,0.344 0.72,0.6 0.184,0.248 0.276,0.524 0.276,0.828 0,0.296 -0.092,0.572 -0.276,0.828 -0.176,0.248 -0.416,0.448 -0.72,0.6 -0.30400003,0.144 -0.63600004,0.216 -0.99599999,0.216 h -1.1592435 z" />
+           d="m -2.2072065,288.80215 v -3.52862 h 1.1592435 c 0.45599995,0 0.87599996,-0.1 1.25999999,-0.3 0.392,-0.2 0.7,-0.468 0.92400001,-0.804 0.232,-0.344 0.348,-0.712 0.348,-1.104 0,-0.4 -0.116,-0.768 -0.348,-1.104 -0.22400001,-0.336 -0.53200001,-0.604 -0.92400001,-0.804 -0.38400003,-0.2 -0.80400004,-0.3 -1.25999999,-0.3 h -1.7112435 l 0.012,7.94462 z m -0.012,-7.39262 h 1.1712435 c 0.35999995,0 0.69199996,0.076 0.99599999,0.228 0.304,0.144 0.544,0.344 0.72,0.6 0.184,0.248 0.276,0.524 0.276,0.828 0,0.296 -0.092,0.572 -0.276,0.828 -0.176,0.248 -0.416,0.448 -0.72,0.6 -0.30400003,0.144 -0.63600004,0.216 -0.99599999,0.216 h -1.1592435 z"
+           style="fill:#ffffff;fill-opacity:1" />
       </g>
     </g>
   </g>

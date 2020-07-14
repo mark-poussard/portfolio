@@ -28,7 +28,7 @@ const GoldmanSachs : React.FC = props => {
                         <>
                             <p>
                                 As an associate at Goldman Sachs' technology division, 
-                                I worked on an internal web app handling <Keyword>Corporate Actions</Keyword> detection and resolution for the whole of the company's and its client's positions.
+                                I worked on an internal web app handling <Keyword>Corporate Actions</Keyword> detection and resolution for the whole company and it's client's positions.
                             </p>
                             <p>
                                 The stack was designed with an <Keyword>Angular</Keyword> front end and a <Keyword>Java</Keyword> backend, with some <Keyword>Slang</Keyword> (proprietary Goldman Sachs language) scripts for legacy systems interoperability.

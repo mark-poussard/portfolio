@@ -2,13 +2,18 @@ import React from 'react';
 import InlineSvg, { IInlineSvgProps } from './InlineSvg';
 
 interface IReturnProps extends IInlineSvgProps{
-
+    backgroundColor ?: string;
 }
 
 const Return : React.FC<IReturnProps> = props => {
     const {viewBox, ...otherProps} = props;
     return (
         <InlineSvg viewBox="0 0 16 16" {...otherProps}>
+            <path style={{
+                    fill : (props.backgroundColor != null)?props.backgroundColor:"none",
+                    stroke : "none",
+                }}
+                d="M 15.000007,11 H 9.0002061 v 4.000001 H 6.9999908 L 1.0000074,7.9999998 6.9999908,1 l 1.9997853,-2.6e-7 4.23e-4,4.00000056 h 5.9998079"/>
             <path style={{
                     fill : "none",
                     stroke : "currentColor",

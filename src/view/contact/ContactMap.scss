@@ -1,19 +1,9 @@
 .contact-map{
     display: inline-block;
     position: relative;
-    >.contact-map-illustration{
-        height: 40vh;
-        width: unset;
-        max-width: 100%;
-        object-fit: fill;
-    }
-    >.contact-map-location{
-        position: absolute;
-        // Marseille
-        left: 49%;
-        top: 22%;
-        transform: translateX(-50%) translateY(-50%);
+    >.contact-map-svg{
         color : var(--color-gold);
-        font-size: 5vh;
+        height: 40vh;
+        max-width: 100%;
     }
 }

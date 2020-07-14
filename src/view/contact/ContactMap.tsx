@@ -1,12 +1,11 @@
 import React from 'react';
+import WorldMap from '../components/svg/Worldmap';
 import './ContactMap.scss';
-import LocationIcon from '../components/svg/LocationIcon';
 
 const ContactMap : React.FC = props => {
     return (
         <div className={`contact-map`}>
-            <img className={`contact-map-illustration`} src="worldmap2.svg" />
-            <LocationIcon className={`contact-map-location`}/>
+            <WorldMap className={`contact-map-svg`} x={2010} y={265}/>
         </div>
     )
 }
