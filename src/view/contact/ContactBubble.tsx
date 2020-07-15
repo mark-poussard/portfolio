@@ -17,7 +17,8 @@ const ContactBubble : React.FC = props => {
             left={(mobile)?(vw*0.75-bubbleRadius):((vw*0.9) - (2*bubbleRadius))}
             bubbleContent={<ContactBubbleContent/>}
             bubbleRadius={bubbleRadius}
-            Page={Contact} />
+            Page={Contact}  
+            bulgeTiming={5600}/>
     )
 }
 export default ContactBubble;

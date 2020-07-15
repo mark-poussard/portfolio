@@ -8,14 +8,14 @@ interface ILogoProps extends React.SVGProps<SVGSVGElement>{
 }
 
 const Logo : React.FC<ILogoProps> = props => {
-    let {viewBox, className, animate, fillCircle, ...otherProps} = props;
+    let {viewBox, className, animate, fillCircle, backgroundCircle, ...otherProps} = props;
     className = (className != null) ? className : "";
     return (
         <svg viewBox="-30 -30 285 285" 
             className={`logo-svg ${className}`} {...otherProps}>
 
             <g transform="translate(13.218822,67.709404)">
-                {props.backgroundCircle === true && 
+                {backgroundCircle === true && 
                     <circle style={{
                             fill : "#fff",
                             stroke : "none",

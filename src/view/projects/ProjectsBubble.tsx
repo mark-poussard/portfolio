@@ -17,7 +17,8 @@ const ProjectsBubble : React.FC = props => {
             left={(mobile)?(vw*0.5 - bubbleRadius):(vw*0.5 - bubbleRadius)}
             bubbleContent={<ProjectsBubbleContent/>}
             bubbleRadius={bubbleRadius}
-            Page={Projects} />
+            Page={Projects} 
+            bulgeTiming={2800}/>
     )
 }
 export default ProjectsBubble;

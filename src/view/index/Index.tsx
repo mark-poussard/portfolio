@@ -8,10 +8,12 @@ import ContactBubble from '../contact/ContactBubble';
 import ProjectsBubble from '../projects/ProjectsBubble';
 import LocalSelector from '../components/local/LocalSelector';
 import Subtitle from '../components/text/Subtitle';
+import IndexBackground from './IndexBackground';
 
 const Index : React.FC = props => {
     return (
         <div className={`index`}>
+            <IndexBackground />
             <LocalSelector />
             <Title>Mark Poussard</Title>
             <Subtitle>

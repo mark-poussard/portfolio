@@ -4,6 +4,7 @@ import './ParallaxDivScroller.scss';
 interface IParallaxDivScrollerProps{
     scrollDiv : HTMLDivElement;
     className ?: string;
+    defaultTransform ?: string;
 }
 
 const ParallaxDivScroller : React.FC<IParallaxDivScrollerProps> = props => {
@@ -29,9 +30,10 @@ const ParallaxDivScroller : React.FC<IParallaxDivScrollerProps> = props => {
             removeEventListener("resize", detect);
         };
     }, [props.scrollDiv]);
+    const defaultTransform = (props.defaultTransform != null)?props.defaultTransform:"none";
     return (
         <div className={`parallax-div ${className}`} ref={parallaxRef} style={{
-            transform : (stop)?"none":undefined
+            transform : (stop)?defaultTransform:undefined
         }}>
             {props.children}
         </div>

@@ -13,9 +13,12 @@ const ToetcieProjectIntro : React.FC<IToetcieProjectIntroProps> = props => {
     return (
         <ProjectSubSection className={`toetcie-project-intro`}
             illustration={
-                <img className={`toetcie-project-intro-illustration`} 
-                    src={`media/toetcie-intro.jpg`} />
+                <div className={`toetcie-project-intro-illustration-wrapper`}>
+                    <img className={`toetcie-project-intro-illustration`} 
+                        src={`media/toetcie-intro.jpg`} />
+                </div>
                 // <ParallaxDivScroller className={`toetcie-project-intro-illustration`}
+                //     defaultTransform={`translateY(-50%)`}
                 //     scrollDiv={props.projectsRef}>
                 // <img src={`media/toetcie-intro.jpg`} />
                 // </ParallaxDivScroller>

@@ -1,11 +1,20 @@
 .toetcie-project-intro{
-    .toetcie-project-intro-illustration{
-        //scale = (perspective - distance) / perspective
-        // transformX(calc(100% * 10 / 6 * 0.5 - 50% * 2 - 1.5%))
-        // transform: translateZ(25px) translateX(calc((-50% / 2) - 1.5%)) scale(0.5);
-        max-width: 1175px;
-        width: 60%;
-        clip-path: circle(50%);
+    .toetcie-project-intro-illustration-wrapper{
+        // width: 100%;
+        // position: absolute;
+        // left: -103%;
+        // top: 0;
+        // // transform: translateY(-50%);
+        // padding-left: 103%;
+        // transform: translateZ(25px) translateY(-50%) scale(0.5);
+        >.toetcie-project-intro-illustration{
+            //scale = (perspective - distance) / perspective
+            // transformX(calc(100% * 10 / 6 * 0.5 - 50% * 2 - 1.5%))
+            // transform: translateZ(25px) translateX(calc((-50% / 2) - 1.5%)) scale(0.5);
+            max-width: 1175px;
+            width: 60%;
+            clip-path: circle(50%);
+        }
     }
 }
 
