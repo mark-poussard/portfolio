@@ -10,8 +10,7 @@ const AuFournilDuChefIntro : React.FC = props => {
             illustration={
                 <img className={`au-fournil-du-chef-project-intro-illustration`} 
                     src={`media/au-fournil-du-chef-intro.jpg`} />
-            }
-            left>
+            }>
             <LocalDiv>
             {{
                 en : 

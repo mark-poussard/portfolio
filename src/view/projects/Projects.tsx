@@ -20,9 +20,9 @@ const Projects : React.FC<IBubblePageProps> = props => {
             <ProjectsIntro />
             {projectsRef != null &&
                 <div className={`projets-list`}>
-                        <AuFournilDuChefProject />
                         <ToetcieProject projectsRef={projectsRef}/>
                         <CorrectOpticProject />
+                        <AuFournilDuChefProject />
                 </div>
             }
         </div>
