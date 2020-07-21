@@ -5,7 +5,7 @@ import ToetcieProject from './toetcie/ToetcieProject';
 import CorrectOpticProject from './correct-optic/CorrectOpticProject';
 import { IBubblePageProps } from '../components/bubble/Bubble';
 import ProjectsIntro from './ProjectsIntro';
-import AuFournilDuChefProject from './au-fournil-du-chef/AuFournilDuChefProject';
+import CoffeeProject from './coffee/CoffeeProject';
 
 const Projects : React.FC<IBubblePageProps> = props => {
     const [projectsRef, setProjectsRef] = useState<HTMLDivElement | null>(null);
@@ -20,9 +20,9 @@ const Projects : React.FC<IBubblePageProps> = props => {
             <ProjectsIntro />
             {projectsRef != null &&
                 <div className={`projets-list`}>
+                        <CoffeeProject />
                         <ToetcieProject projectsRef={projectsRef}/>
                         <CorrectOpticProject />
-                        <AuFournilDuChefProject />
                 </div>
             }
         </div>
