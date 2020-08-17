@@ -10,7 +10,7 @@ const AboutBubble : React.FC = props => {
     const vw = useViewportWidth();
     const mobile = isMobile();
     const minDim = (vw > vh*0.5)?vh*0.5:vw;
-    const bubbleRadius = (mobile)?(minDim*0.25):DEFAULT_BUBBLE_RADIUS;
+    const bubbleRadius = (mobile)?(minDim*0.25):(vw*0.08);
     return (
         <Bubble backgroundColor="var(--color-ming)" 
             top={(mobile)?(vh*0.5):(vh * 0.6 - bubbleRadius)} 
