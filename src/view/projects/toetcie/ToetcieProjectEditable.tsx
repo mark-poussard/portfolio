@@ -34,7 +34,7 @@ const ToetcieProjectEditable : React.FC = props => {
                 fr : 
                     <>
                         <p>
-                            Dans l'objectif d'offrir un maximum de flexibilité au restaurateur, le site web a été entièrement pensé pour fonctionner à partir d'informations tirées de fichiers formattés.
+                            Dans l'objectif d'offrir un maximum de flexibilité au restaurateur, le site web a été entièrement pensé pour fonctionner à partir d'informations tirées de fichiers formatés.
                         </p>
                         <p>
                             Cette approche permet au restaurateur d'<Keyword>ajuster les prix de sa carte</Keyword>, d'<Keyword>ajouter des éléments à son menu</Keyword> et d'<Keyword>informer ses clients</Keyword>, le tout avec de <Keyword>très faibles compétences en informatique requises</Keyword>.
