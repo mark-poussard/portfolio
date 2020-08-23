@@ -1,0 +1,14 @@
+{
+    "name": "Mark Poussard - Portfolio",
+    "short_name": "MP Portfolio",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#fff",
+    "description": "Mark Poussard is a freelance full stack developer with extensive professional experience. He works with companies and restaurants to design and create beautiful, reactive and personalized websites.",
+    "icons": [{
+      "src": "favicon.ico",
+      "sizes": "16x16 24x24 32x32 48x48 64x64 72x72 96x96 128x128 256x256",
+      "type": "image/x-icon"
+    }]
+  }

@@ -24,7 +24,7 @@ const ProjectWebsiteLink : React.FC<IProjectWebsiteLinkProps> = props => {
             <LocalDiv>
             {{
                 en : "Visit the website",
-                fr : "Visitez le site web"
+                fr : "Visiter le site web"
             }}
             </LocalDiv>
         </a>
