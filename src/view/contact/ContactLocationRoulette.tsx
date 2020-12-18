@@ -6,8 +6,8 @@ interface IContactLocationRouletteProps{
 }
 
 const ContactLocationRoulette : React.FC<IContactLocationRouletteProps> = props => {
-    const location = "Montpellier";
-    const locationRoulette = ["Paris", "Bangkok", "London", "Windhoek", "Da Nang", "Tokyo", "Brisbane", "Bordeaux", "Berlin", "Hanoi", "Marseille"]
+    const location = "Paris";
+    const locationRoulette = ["Paris", "Bangkok", "London", "Windhoek", "Da Nang", "Tokyo", "Brisbane", "Bordeaux", "Berlin", "Hanoi", "Marseille", "Montpellier", "Napoli"]
     const [display, setDisplay] = useState(props.display);
     useEffect(() => {
         if(props.display){
@@ -21,7 +21,7 @@ const ContactLocationRoulette : React.FC<IContactLocationRouletteProps> = props 
     return (
         <div className={`contact-location`}>
             <span className={`contact-location-sizer`}>
-                {location}
+                {locationRoulette.reduce((a,b) => (a.length > b.length)?a:b, "")}
             </span>
             <div className={`contact-location-values`}>
                 {[...locationRoulette, location].map(loc => 
