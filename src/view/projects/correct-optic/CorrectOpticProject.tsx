@@ -7,7 +7,8 @@ const CorrectOpticProject : React.FC = props => {
     return (
         <ProjectSection 
             className={`correct-optic-project`}
-            name={`Correct Optic`}>
+            name={`Correct Optic`}
+            url={`http://correctoptic.fr/`}>
             <CorrectOpticProjectIntro />
             <CorrectOpticGraphism />
         </ProjectSection>
