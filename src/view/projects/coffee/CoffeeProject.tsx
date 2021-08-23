@@ -7,7 +7,7 @@ const CoffeeProject : React.FC = props => {
         <ProjectSection 
             className={`coffee-project`}
             name={`Coffee`}
-            url={`http://resto-json-editor-testenv.s3-website-eu-west-1.amazonaws.com/`}>
+            url={`https://d1ox9oc0wr7i8k.cloudfront.net/`}>
                 <CoffeeProjectIntro />
         </ProjectSection>
     )

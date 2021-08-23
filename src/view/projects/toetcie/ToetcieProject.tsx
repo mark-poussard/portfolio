@@ -15,7 +15,8 @@ const ToetcieProject : React.FC<IToetcieProjectProps> = props => {
     return (
         <ProjectSection 
             className={`toetcie-project`}
-            name={`To & Cie`}>
+            name={`To & Cie`}
+            url={`https://d27t1kd47xpamf.cloudfront.net`}>
             <ToetcieProjectIntro projectsRef={props.projectsRef}/>
             <ToetcieProjectMobile />
             <ToetcieProjectOrder />
