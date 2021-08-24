@@ -21,7 +21,7 @@ const ContactLocationRoulette : React.FC<IContactLocationRouletteProps> = props 
     return (
         <div className={`contact-location`}>
             <span className={`contact-location-sizer`}>
-                {locationRoulette.reduce((a,b) => (a.length > b.length)?a:b, "")}
+                {[...locationRoulette, location].reduce((a,b) => (a.length > b.length)?a:b, "")}
             </span>
             <div className={`contact-location-values`}>
                 {[...locationRoulette, location].map(loc => 
