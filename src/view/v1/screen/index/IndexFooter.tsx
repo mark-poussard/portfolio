@@ -9,7 +9,7 @@ const IndexFooter : React.FC = props => {
         <footer className={`index-footer`}>
             <a className={`linkedin`} href={`https://www.linkedin.com/in/mark-poussard/`} target="_blank"><LinkedIn /></a>
             <a className={`github`} href={`https://github.com/mark-poussard`} target="_blank"><Github /></a>
-            <a className={`email`} href={`mailto:poussard.mark@gmail.com`} target="_blank"><Email /></a>
+            <a className={`email`} href={`mailto:mark@poussard.io`} target="_blank"><Email /></a>
         </footer>
     )
 }

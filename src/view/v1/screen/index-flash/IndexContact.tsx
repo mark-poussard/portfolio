@@ -9,7 +9,7 @@ const IndexContact : React.FC = props => {
         <div className={`index-contact`}>
             <a href={`https://www.linkedin.com/in/mark-poussard/`}><LinkedIn /></a>
             <a href={`https://github.com/mark-poussard`}><Github /></a>
-            <a href={`mailto:poussard.mark@gmail.com`}><Email /></a>
+            <a href={`mailto:mark@poussard.io`}><Email /></a>
         </div>
     )
 }
