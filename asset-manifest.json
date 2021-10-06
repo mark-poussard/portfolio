@@ -1,13 +1,13 @@
 {
-  "main.css": "/portfolio/static/css/main.833f1502.chunk.css",
-  "main.js": "/portfolio/static/js/main.bc997a71.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.bc997a71.chunk.js.map",
-  "static/js/1.067e5df1.chunk.js": "/portfolio/static/js/1.067e5df1.chunk.js",
-  "static/js/1.067e5df1.chunk.js.map": "/portfolio/static/js/1.067e5df1.chunk.js.map",
-  "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
-  "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
-  "static/css/main.833f1502.chunk.css.map": "/portfolio/static/css/main.833f1502.chunk.css.map",
-  "index.html": "/portfolio/index.html",
-  "precache-manifest.f6288bb0afd81761f051f89b31db180b.js": "/portfolio/precache-manifest.f6288bb0afd81761f051f89b31db180b.js",
-  "service-worker.js": "/portfolio/service-worker.js"
+  "main.css": "mark.poussard.io/static/css/main.833f1502.chunk.css",
+  "main.js": "mark.poussard.io/static/js/main.30d32292.chunk.js",
+  "main.js.map": "mark.poussard.io/static/js/main.30d32292.chunk.js.map",
+  "static/js/1.067e5df1.chunk.js": "mark.poussard.io/static/js/1.067e5df1.chunk.js",
+  "static/js/1.067e5df1.chunk.js.map": "mark.poussard.io/static/js/1.067e5df1.chunk.js.map",
+  "runtime~main.js": "mark.poussard.io/static/js/runtime~main.dab53518.js",
+  "runtime~main.js.map": "mark.poussard.io/static/js/runtime~main.dab53518.js.map",
+  "static/css/main.833f1502.chunk.css.map": "mark.poussard.io/static/css/main.833f1502.chunk.css.map",
+  "index.html": "mark.poussard.io/index.html",
+  "precache-manifest.3ee896da1f9addded9e58b9fd856d29a.js": "mark.poussard.io/precache-manifest.3ee896da1f9addded9e58b9fd856d29a.js",
+  "service-worker.js": "mark.poussard.io/service-worker.js"
 }
