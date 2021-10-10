@@ -7,7 +7,7 @@ const CoffeeProject : React.FC = props => {
         <ProjectSection 
             className={`coffee-project`}
             name={`Coffee`}
-            url={`https://d1ox9oc0wr7i8k.cloudfront.net/`}>
+            url={`https://mark.poussard.io/coffee/`}>
                 <CoffeeProjectIntro />
         </ProjectSection>
     )
