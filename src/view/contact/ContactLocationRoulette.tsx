@@ -6,8 +6,8 @@ interface IContactLocationRouletteProps{
 }
 
 const ContactLocationRoulette : React.FC<IContactLocationRouletteProps> = props => {
-    const location = "θεσσαλονικη";
-    const locationRoulette = ["Paris", "Bangkok", "London", "Windhoek", "Đà Nẵng", "Tokyo", "Brisbane", "Bordeaux", "Berlin", "Hà nội", "Marseille", "Montpellier", "Napoli", "Αθήνα"]
+    const location = "Malta";
+    const locationRoulette = ["Paris", "Bangkok", "London", "Windhoek", "Đà Nẵng", "Tokyo", "Brisbane", "Bordeaux", "Berlin", "Hà nội", "Marseille", "Montpellier", "Napoli", "Αθήνα", "θεσσαλονικη"]
     const [display, setDisplay] = useState(props.display);
     useEffect(() => {
         if(props.display){
