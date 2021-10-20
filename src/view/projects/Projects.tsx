@@ -6,6 +6,8 @@ import CorrectOpticProject from './correct-optic/CorrectOpticProject';
 import { IBubblePageProps } from '../components/bubble/Bubble';
 import ProjectsIntro from './ProjectsIntro';
 import CoffeeProject from './coffee/CoffeeProject';
+import MonstersAndMayorsIntro from './monsters-and-mayors/MonstersAndMayorsIntro';
+import MonstersAndMayors from './monsters-and-mayors/MonstersAndMayors';
 
 const Projects : React.FC<IBubblePageProps> = props => {
     const [projectsRef, setProjectsRef] = useState<HTMLDivElement | null>(null);
@@ -20,6 +22,7 @@ const Projects : React.FC<IBubblePageProps> = props => {
             <ProjectsIntro />
             {projectsRef != null &&
                 <div className={`projets-list`}>
+                        <MonstersAndMayors />
                         <CoffeeProject />
                         <ToetcieProject projectsRef={projectsRef}/>
                         <CorrectOpticProject />
