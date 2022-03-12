@@ -6,6 +6,7 @@ import ContactIAm from './ContactIAm';
 import ContactLinks from './ContactLinks';
 import ContactMap from './ContactMap';
 import { IBubblePageProps } from '../components/bubble/Bubble';
+import ContactEmailLink from './ContactEmailLink';
 
 const Contact : React.FC<IBubblePageProps> = props => {
     return (
@@ -16,9 +17,10 @@ const Contact : React.FC<IBubblePageProps> = props => {
                 fr : "Contact"
             }}
             </Header>
-            <ContactIAm display={props.display} />
+            {/* <ContactIAm display={props.display} />
             <ContactMap />
-            <ContactGetInTouch />
+            <ContactGetInTouch /> */}
+            <ContactEmailLink />
             <ContactLinks />
         </div>
     )
